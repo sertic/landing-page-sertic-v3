@@ -1,0 +1,52 @@
+.service-box {
+    width: 300px;
+    height: 550px;
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 4px 4px 10px 1px rgba(0,0,0,0.75);
+    background-color: #f1f1f1;
+}
+.service-box-description {
+    height: 55%;
+}
+.service-box-description h2{
+    height: 50%;
+}
+
+.service-box-content {
+    height: 45%;
+    line-height: 100%;
+    font-family: "Roboto", sans-serif;
+}
+.service-box-content p::first-letter {
+    font-size: 130%;
+    color: #1ce;
+}
+
+
+@media screen and (max-width: 1500px) and (max-device-width: 1000px)  {
+
+    .service-box {
+        width: 200px;
+        height: 450px;
+        padding: 15px;
+    }
+
+    .service-box h2{
+        font-size: 1.2em;
+        height: 20%;
+    }
+
+    .service-box p{
+        font-size: 0.8em;
+    }
+
+    .service-box-description {
+        height: 50%;
+    }
+
+    .icon{
+        height: 50px;
+    }
+
+}

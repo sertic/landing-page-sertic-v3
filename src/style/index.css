@@ -1,0 +1,9 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Roboto Slab', serif;
+    background-color: #c6c8c8;
+}
+
+.hover :hover{
+    color:#14739F;
+}

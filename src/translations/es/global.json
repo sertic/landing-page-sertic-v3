@@ -1,0 +1,80 @@
+{
+    "sections":{
+        "Home":             "Inicio",
+        "About":            "Nosotros",
+        "Services":         "Servicios",
+        "Clients":          "Clientes",
+        "Contact":          "Contacto",
+        "Assistance":       "Asistencia"
+    },
+    "aboutUs":{
+        "title":            "Nuestra Identidad",
+        "img-text":         "Héctor A. García - CEO SysAdmin y Especialista en Seguridad Informática",
+        "description": {
+            "text1":        "Hace más de 10 años que conformamos equipos de trabajo que proveen servicios tecnológicos a empresas que buscan un funcionamiento eficiente de sus recursos informáticos",
+            "text2":        "Nuestra identidad está definida por tres pilares de trabajo:",
+            "text3":        "Somos curiosos. Creemos que siempre hay algo más por ver, por aprender y por mejorar. Queremos llevar los conocimientos al siguiente nivel",
+            "text4":        "Somos colegas. Tanto internamente como de forma externa, buscamos crear redes y relaciones comprometidas de trabajo, juntos somos mejores",
+            "text5":        "Somos ágiles. Sabemos donde poner foco ante las urgencias y cómo priorizar las acciones necesarias para encontrar soluciones y el alcance de objetivos",
+            "text6":        "Somos SerTIC"
+        }
+    },
+    "services":{
+        "title":            "Nuestros Servicios",
+        "service1":{
+            "title":        "Consultoría",
+            "descr1":       "Transformación digital",
+            "descr2":       "Seguridad y Auditoría de Sistemas",
+            "descr3":       "Planes de contingencia",
+            "descr4":       "Procedimientos y políticas de respaldo de activos informáticos"
+        },
+        "service2":{
+            "title":        "Soporte Informático",
+            "descr1":       "Mantenimiento técnico",
+            "descr2":       "Soporte On-Site de técnicos especializados",
+            "descr3":       "Monitoreo de redes",
+            "descr4":       "Soluciones integrales para teletrabajo"
+        },
+        "service3":{
+            "title":        "Outsourcing, Recruiting y Training",
+            "descr1":       "Búsqueda y Reclutamiento IT",
+            "descr2":       "Proyectos con/sin contratación directa"
+        },
+        "service4":{
+            "title":        "Infraestructura y Soluciones Cloud",
+            "descr1":       "Servidores",
+            "descr2":       "Aplicaciones",
+            "descr3":       "Servicios"
+        },
+        "service5":{
+            "title":        "Desarrollo de software",
+            "descr1":       "Desarrollo web y mobile",
+            "descr2":       "DevOps Culture"
+            
+        }
+        
+    },
+    "Clients":{
+        "title":            "Empresas que confian en SerTIC"
+    },
+    "Contact":{
+        "title":            "Contactanos por correo",
+        "name":             "Nombre",
+        "email":            "Correo",
+        "phone":            "Teléfono",
+        "message":          "Mensaje",
+        "button":           "Enviar",
+        "error":            "Uno de los campos está incompleto",
+        "success":          "Mensaje enviado correctamente!",
+        "waiting":          "Espere.." 
+    },
+    "Footer":{
+        "location":         "Ubicación",
+        "phone":            "Teléfono",
+        "email":            "E-mail"    
+    }
+
+}
+
+
+

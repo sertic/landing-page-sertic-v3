@@ -1,0 +1,11 @@
+@media screen and (max-device-width: 1300px) {
+    .logo img{
+        width: 50vw;
+    }
+}
+
+@media screen and (max-device-width: 700px) and (max-width: 700px) {
+    .logo img{
+        width: 70vw;
+    }   
+}

@@ -1,0 +1,38 @@
+.navbar{
+    z-index: 100;
+    background-color: #EDEEF0;
+}
+
+.language{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color:#686C6C;
+}
+.nav-link:focus, .nav-link:hover {
+    color:#686C6C;
+}
+
+
+.language p {
+    margin: 0px;
+}
+
+.light{
+    width: 70px;
+}
+
+.dark{
+    margin: 15px;
+    width: 40px;
+    position: absolute;
+}
+
+.sertic-logo{
+    width: 200px;
+}
+
+.navbar-toggler-icon {
+    width: 40px;
+    color: white;
+    cursor: pointer;
+}
