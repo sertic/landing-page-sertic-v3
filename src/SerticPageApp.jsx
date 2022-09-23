@@ -1,16 +1,18 @@
 import { useState } from "react";
 import { Home } from "./components/Home";
 import { NavBar } from "./components/NavBar";
+import { Services } from "./components/Services/Services";
 
 export const SerticPageApp = () => {
     const [dark, setDark] = useState( localStorage.getItem('theme')  );
 
   return (
     <>
-    <NavBar
-        setDark={ setDark }
-    />
-    <Home />
+      <NavBar
+          setDark={ setDark }
+      />
+      <Home />
+      <Services />
     </>
   )
 }

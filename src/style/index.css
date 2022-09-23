@@ -1,7 +1,12 @@
 body{
-    overflow-x: hidden;
-    font-family: 'Roboto Slab', serif;
+    /* overflow-x: hidden; */
     background-color: #c6c8c8;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+
+body h1, h2{
+    font-family: 'Roboto Slab', serif;
 }
 
 .hover :hover{

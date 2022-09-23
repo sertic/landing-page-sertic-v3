@@ -3,9 +3,9 @@ import '../style/navbar.css';
 import { useTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-import lightImg  from '../assets/icono-noche-dia/dia.png';
-import darkImg from '../assets/icono-noche-dia/noche.png';
-import serticLogo from '../assets/logo/nuevo-logo-1.png'
+import lightImg  from '../assets/Icono Noche Dia/dia.png';
+import darkImg from '../assets/Icono Noche Dia/noche.png';
+import serticLogo from '../assets/Logo/nuevo-logo-1.png'
 import { Nav, Navbar, Button } from 'react-bootstrap';
 
 export const NavBar = ({ setDark }) => {

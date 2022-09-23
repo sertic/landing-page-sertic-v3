@@ -1,8 +1,9 @@
 import React from 'react';
-import '../../css/servicios.css';
-import { ReturnService } from './ReturnService';
+import '../../style/services.css';
 import { faBriefcase, faCloud, faCode, faServer, faWrench } from '@fortawesome/free-solid-svg-icons';
 import { useTranslation } from 'react-i18next';
+import backgroundServices from '../../assets/Fondos/fondo-services.png';
+import fingerprint from '../../assets/Huella/huella-servicios.png';
 
 const data = [
     {
@@ -35,48 +36,71 @@ const data = [
 export const Services = ({ dark }) => {
 
     const [t] = useTranslation("global");
-    console.log( t("services.services1.descr[0]") );
   
-  return (
-    <div id='servicios'>
-      <section className='text-center'>
-            <h1 
-                className='m-5'
-            >
-                { t("services.title") }
-            </h1>
+    return (
+        <div className='my-5'>
+            <img className='w-100 background-services' src={backgroundServices} alt="background" />
+            <section className='text-center my-5'>
+                <h1 
+                    className='p-5'
+                >
+                    { t("services.title") }
+                </h1>
 
-            <div className='d-flex flex-wrap justify-content-center'>
+                <div className='d-flex flex-wrap justify-content-center align-items-center'>
 
-            {
-                data.map( i =>(
-                    <ReturnService 
-                        dark={ dark }
-                        title={ t(`services.service${i.index}.title`) }
-                        key={ i.index }
-                        icon={ i.icon }
-                        description={
+                {
+                    data.map( i =>(
+                        <div 
+                        className='d-flex flex-column'
+                        // style={
+                        //         dark
+                        //           ?
+                        //         {'backgroundColor':'#3F3F3F'}   
+                        //           :
+                        //         {'backgroundColor':'#f1f1f1'}   
+                        // }
+                    >
                         <div
-                            className='service-box-content blockquote'
+                            className='mb-2 service-box-description d-flex flex-column align-items-center justify-content-around'
                         >
-                            {
-                                i.nItems.map(item => (
-                                    <p
-                                        key={item}
-                                    >
-                                        { t(`services.service${i.index}.descr${item}`) }
-                                    </p>
-                                ))
-                            }
+                            <span>
+                                <img
+                                    width='150' 
+                                    src={fingerprint} 
+                                />
+                            </span>
+
+                            <h2
+                                style={{'width':'60%'}}
+                            >
+                                { t(`services.service${i.index}.title`) }
+                            </h2>
                         </div>
-                        }
-                    />
-                ))
-            }
+                        
+                        <div
+                                className='blockquote'
+                            >
+                                {
+                                    i.nItems.map(item => (
+                                        <p
+                                            key={item}
+                                            style={{'margin':'0px','width':'400px'}}
+                                        >
+                                            { t(`services.service${i.index}.descr${item}`) }
+                                        </p>
+                                    ))
+                                }
+                            </div>
+                    
+                    </div>
+                        
+                    ))
+                }
 
 
-            </div>
-      </section>
-    </div>
-  );
+                </div>
+        </section>
+        </div>
+    );
 };

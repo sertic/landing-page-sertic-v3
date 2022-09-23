@@ -1,39 +1,31 @@
 import React from 'react';
-import homeWallpapaer from '../assets/fondos/fondo-5.png';
-import huellaWallpaper from '../assets/huella/huella-fondo-celeste.png';
-import logoWallpaper from '../assets/logo/nuevo-logo-2.png';
+import homeWallpapaer from '../assets/Fondos/fondo-home.png';
+import fingerprintLogo from '../assets/Huella Logo/huella-logo.png';
 import '../style/home.css';
-
+import { FaceImages } from './Home/FaceImages';
+import { OutIdentity } from './Home/OutIdentity';
 
 export const Home = () => {
   return (
     <div
       className='home'
     >
-      <div
-        className='home-wallpaper'
-      >
         <img 
+          className='home-wallpaper'
           src={homeWallpapaer} 
           alt='home-wallpaper' 
         />
-      </div>
-
-      <div
-        className='images-container'
-      >
-        <img 
-          className='huella'
-          src={huellaWallpaper} 
-          alt='huella' 
+        <img
+          className='huella-logo-wallpaper'
+          src={fingerprintLogo}
+          alt='huella-logo-wallpaper'
         />
-        <img 
-          className='logo'
-          src={logoWallpaper} 
-          alt='logo' 
-        />
-      </div>
-
+        <div
+          className='d-flex'
+        >
+          <OutIdentity />
+          <FaceImages />
+        </div>
     </div>
   ); 
 };

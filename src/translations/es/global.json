@@ -20,34 +20,34 @@
         }
     },
     "services":{
-        "title":            "Nuestros Servicios",
+        "title":            "NUESTROS SERVICIOS",
         "service1":{
-            "title":        "Consultoría",
+            "title":        "CONSULTORÍA",
             "descr1":       "Transformación digital",
             "descr2":       "Seguridad y Auditoría de Sistemas",
             "descr3":       "Planes de contingencia",
             "descr4":       "Procedimientos y políticas de respaldo de activos informáticos"
         },
         "service2":{
-            "title":        "Soporte Informático",
+            "title":        "SOPORTE INFORMÁTICO",
             "descr1":       "Mantenimiento técnico",
             "descr2":       "Soporte On-Site de técnicos especializados",
             "descr3":       "Monitoreo de redes",
             "descr4":       "Soluciones integrales para teletrabajo"
         },
         "service3":{
-            "title":        "Outsourcing, Recruiting y Training",
+            "title":        "OUTSOURCING, RECLUTAMIENTO Y CAPACITACIÓN",
             "descr1":       "Búsqueda y Reclutamiento IT",
             "descr2":       "Proyectos con/sin contratación directa"
         },
         "service4":{
-            "title":        "Infraestructura y Soluciones Cloud",
+            "title":        "INFRAESTRUCTURA Y SOLUCIONES EN LA NUBE",
             "descr1":       "Servidores",
             "descr2":       "Aplicaciones",
             "descr3":       "Servicios"
         },
         "service5":{
-            "title":        "Desarrollo de software",
+            "title":        "DESARROLLO DE SOFTWARE",
             "descr1":       "Desarrollo web y mobile",
             "descr2":       "DevOps Culture"
             
