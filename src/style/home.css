@@ -35,3 +35,17 @@
     color: #0074a2;
     height: 70px;
 }
+
+@media screen and ( max-device-width: 1300px ) {
+    .container {
+        width: 50vw;
+    }
+    .container p{
+        font-size: 15px;
+    }
+
+    .huella-logo-wallpaper{
+        top: 600px;
+        width: 50vw
+    }
+}

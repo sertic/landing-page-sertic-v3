@@ -7,8 +7,22 @@ body{
 
 body h1, h2{
     font-family: 'Roboto Slab', serif;
+    font-size: 30px;
 }
 
 .hover :hover{
     color:#14739F;
+}
+
+@media screen and ( max-device-width: 1500px ) {
+
+    body h1{
+
+    }
+    body h2{
+        font-size: 17px;
+    }
+    body p{
+        font-size: 12px;
+    }
 }

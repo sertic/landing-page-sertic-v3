@@ -4,3 +4,9 @@
     width: 100vw;
     height: 100vh;
 }
+
+@media screen and ( max-device-width: 1500px ) {
+    .service-box-description img{
+        width: 70px;
+    }
+}

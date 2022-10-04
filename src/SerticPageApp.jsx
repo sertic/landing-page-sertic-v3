@@ -11,7 +11,7 @@ export const SerticPageApp = () => {
       <NavBar
           setDark={ setDark }
       />
-      <Home />
+      {/* <Home /> */}
       <Services />
     </>
   )
