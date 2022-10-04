@@ -1,4 +1,8 @@
 import { useState } from "react";
+import { Clients } from "./components/Clients/Clients";
+import { ClientsPartners } from "./components/Clients/ClientsPartners";
+import { Contact } from "./components/Contact/Contact";
+import { Footer } from "./components/Footer";
 import { Home } from "./components/Home";
 import { NavBar } from "./components/NavBar";
 import { Services } from "./components/Services/Services";
@@ -11,8 +15,11 @@ export const SerticPageApp = () => {
       <NavBar
           setDark={ setDark }
       />
-      {/* <Home /> */}
+      <Home />
       <Services />
+      <ClientsPartners />
+      <Contact />
+      <Footer />
     </>
   )
 }

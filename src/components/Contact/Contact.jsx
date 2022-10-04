@@ -5,11 +5,10 @@ import { ReturnMap } from './ReturnMap';
 export const Contact = () => {
   return (
     <div
-      className='contacto d-flex justify-content-around align-items-center'
+      className='h-100 d-flex justify-content-around align-items-center'
     >
       <ReturnMap />
       <ReturnContact />
-
     </div>
   );
 };

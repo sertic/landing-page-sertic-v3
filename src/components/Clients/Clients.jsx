@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/clientes.css';
+// import '../../css/clientes.css';
 import Slider from 'react-slick';
 import { ReturnClient } from './ReturnClient';
 import { useTranslation } from 'react-i18next';
@@ -29,7 +29,9 @@ export const Clients = ({dark}) => {
       <section
         className='clientes'
       >
-        <h1>
+        <h1
+          className='d-flex justify-content-center'
+        >
           { t("Clients.title") }
         </h1>
         <hr /> 

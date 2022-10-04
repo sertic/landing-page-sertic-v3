@@ -1,7 +1,7 @@
 import React from 'react';
 import homeWallpapaer from '../assets/Fondos/fondo-home.png';
 import fingerprintLogo from '../assets/Huella Logo/huella-logo.png';
-import '../style/home.css';
+import '../style/home/home.css';
 import { FaceImages } from './Home/FaceImages';
 import { OutIdentity } from './Home/OutIdentity';
 
@@ -21,7 +21,7 @@ export const Home = () => {
           alt='huella-logo-wallpaper'
         />
         <div
-          className='d-flex'
+          className='d-flex align-items-center justify-content-center'
         >
           <OutIdentity />
           <FaceImages />

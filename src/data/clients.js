@@ -1,14 +1,14 @@
-import inta from '../../assets/clientes/inta.png';
-import konecta from '../../assets/clientes/konecta.svg';
-import mec from '../../assets/clientes/mec.png';
-import letis from '../../assets/clientes/leti.png';
-import polo from '../../assets/clientes/polo.png';
-import autopista from '../../assets/clientes/autopista.png';
-import motorx from '../../assets/clientes/logo-motorx.svg';
-import expoagro from '../../assets/clientes/expoagro_logo.png';
-import swipro from '../../assets/clientes/swipro.jpg';
-import faro from '../../assets/clientes/faro.png';
-import zona93 from '../../assets/clientes/zona93.png';
+import inta from '../assets/Clientes/inta.png';
+import konecta from '../assets/Clientes/konecta.svg';
+import mec from '../assets/Clientes/mec.png';
+import letis from '../assets/Clientes/leti.png';
+import polo from '../assets/Clientes/polo.png';
+import autopista from '../assets/Clientes/autopista.png';
+import motorx from '../assets/Clientes/logo-motorx.svg';
+import expoagro from '../assets/Clientes/expoagro_logo.png';
+import swipro from '../assets/Clientes/swipro.jpg';
+import faro from '../assets/Clientes/faro.png';
+import zona93 from '../assets/Clientes/zona93.png';
 
 
 export const clients = [

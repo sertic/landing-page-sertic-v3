@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import Swal from 'sweetalert2';
 import { onSubmit } from '../../actions/contact-alert';
-import '../../css/contacto.css';
+// import '../../css/contacto.css';
 
 
 export const ReturnContact = () => {

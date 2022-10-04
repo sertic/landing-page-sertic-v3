@@ -1,0 +1,64 @@
+.home{
+    height: 200vh;
+    color: #676c6c;
+}
+
+.container {
+    text-overflow: "-";
+    width: 740px;
+}
+
+
+.container h1{
+    font-weight: bolder;
+}
+
+.container p{
+    font-weight: 400;
+}
+
+
+.home-wallpaper{
+    object-fit: cover;
+    height: 110vh;
+    width: 100%;
+}
+
+.huella-logo-wallpaper{
+    top: 950px;
+    position: absolute;
+    right: 0px;
+}
+
+.arrow{
+    position: absolute;
+    cursor: pointer;
+    color: #0074a2;
+    height: 70px;
+    right: 20px;
+}
+
+.identity-img{
+    width: 80px;
+    height: 80px;
+}
+
+@media screen and ( max-device-width: 1500px ) {
+    .container {
+        width: 50vw;
+    }
+
+    .huella-logo-wallpaper{
+        top: 600px;
+        width: 50vw
+    }
+
+    .identity-img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .arrow{
+        height: 40px;
+    }
+}

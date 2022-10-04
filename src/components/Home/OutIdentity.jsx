@@ -66,10 +66,9 @@ export const OutIdentity = () => {
                 className='my-3 d-flex align-items-center'
             >
                 <img 
-                    className='me-4'
+                    className='me-4 identity-img'
                     src={icon} 
                     alt={`list-item-${index}`} 
-                    style={{'width':'80px', height:'80px'}}
                 />
                 <p
                     style={style}
