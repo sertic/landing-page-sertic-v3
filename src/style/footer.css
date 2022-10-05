@@ -1,0 +1,26 @@
+.footer1{
+    color: white;
+    background-color: black;
+}
+
+.footer1 div div{
+    width: 300px;
+    margin: 0px !important;
+}
+
+a{
+    margin: 2px 0px;
+}
+
+.footer2{
+    color: black;
+    background-color: #c6c6c6;
+    margin: 0px;
+    padding: 5px;
+}
+p{
+    margin: 0px !important;
+}
+.footer-logo{
+    width: 150px;
+}

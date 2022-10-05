@@ -1,14 +1,45 @@
-import { Clients } from "./Clients"
-import { Partners } from "./Partners"
+import { GenericCustomSlider } from './GenericCustomSlider';
+import { useTranslation } from 'react-i18next';
+import { ReturnClient } from '../Clients/ReturnClient';
+import  {clients}  from '../../data/clients';
+import { ReturnPartner } from './ReturnPartner';
 
 export const ClientsPartners = () => {
 
+    const [t] = useTranslation('global');
+
     return (
-        <div
-            className='h-100'
+        <section
+            className='container'
         >
-            <Clients />
-            <Partners />
-        </div>
+                <GenericCustomSlider
+                    title={ t('Clients.title') }
+                    id='clients'
+                    children={
+                        clients.map( ({ link, img, name }) =>(
+                            <ReturnClient
+                                key  = { link }
+                                link = { link }
+                                img  = { img } 
+                                name = { name }
+                            />
+                        ))    
+                    }
+                />
+                <GenericCustomSlider
+                    title='TECNOLOGÍAS Y HERRAMIENTAS'
+                    id='partners'
+                    children={
+                        clients.map( ({ link, img, name }) =>(
+                            <ReturnPartner
+                                key  = { link }
+                                link = { link }
+                                img  = { img } 
+                                name = { name }
+                            />
+                        ))    
+                    }
+                />
+        </section>
     )
 }

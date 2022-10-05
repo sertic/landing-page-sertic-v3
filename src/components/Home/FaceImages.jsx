@@ -3,7 +3,7 @@
 import Slider from 'react-slick';
 import { members } from '../../data/members';
 import { CustomNextArrow } from '../Carousel/CustomNextArrow';
-import { CustomPrevArrow } from '../Carousel/CustomPrevArrow';
+import { NullArrow } from '../Carousel/NullArrow';
 import { Members } from './Members';
 
 const settings = {
@@ -11,7 +11,7 @@ const settings = {
   infinite: true,
   slidesToShow: 1,
   slidesToScroll: 1,
-  prevArrow: <CustomPrevArrow />,
+  prevArrow: <NullArrow />,
   nextArrow: <CustomNextArrow />
 };
 

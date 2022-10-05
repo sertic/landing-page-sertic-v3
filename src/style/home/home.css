@@ -30,14 +30,6 @@
     right: 0px;
 }
 
-.arrow{
-    position: absolute;
-    cursor: pointer;
-    color: #0074a2;
-    height: 70px;
-    right: 20px;
-}
-
 .identity-img{
     width: 80px;
     height: 80px;

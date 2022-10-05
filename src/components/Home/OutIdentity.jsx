@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Row } from 'react-bootstrap';
 import icon1 from '../../assets/List Icons/list-icon1.png';
 import icon2 from '../../assets/List Icons/list-icon2.png';

@@ -1,0 +1,24 @@
+#wsp{
+    display: none;
+}
+
+.wsp-icon{
+    position: relative;
+    object-fit: cover;
+    transition-duration: 1s;
+    cursor: pointer;  
+    top: 400px; 
+    left: 150px; 
+}
+
+.wsp-icon:hover{
+    filter: brightness(70%);
+}
+
+
+@media screen and (max-device-width: 1300px) {
+    .wsp-icon{
+        width: 60px;
+        height: 60px;
+    }
+}

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import '../../style/services.css';
 import { faBriefcase, faCloud, faCode, faServer, faWrench } from '@fortawesome/free-solid-svg-icons';
 import { useTranslation } from 'react-i18next';
@@ -39,9 +39,11 @@ export const Services = ({ dark }) => {
   
     return (
         <div className='my-5'>
-            <img className='w-100 background-services' 
-            src={backgroundServices} 
-            alt="background" />
+            <img 
+                className='w-100 background-services' 
+                src={backgroundServices} 
+                alt="background" 
+            />
             <section className='text-center my-5'>
                 <h1 
                     className='p-5'

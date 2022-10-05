@@ -1,8 +1,9 @@
-import React from 'react';
-// import '../css/footer.css';
-import { faMapMarkedAlt, faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
+import '../style/footer.css';
+import { faMapMarkedAlt, faPhoneAlt, faEnvelope, faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useTranslation } from 'react-i18next';
+import serticLogo from '../assets/Logo/nuevo-logo-2.png';
 
 export const Footer = () => {
 
@@ -10,37 +11,52 @@ export const Footer = () => {
 
   return (
     <>
-    <div className='footer-above'>
-            <div className='footer-columns'> 
-                <h3> 
-                    <FontAwesomeIcon icon={faMapMarkedAlt} className='icons' />
-                    { t("Footer.location") }
-                    <hr color='#1ce'/>
-                </h3>
-                <p className='footer-info'>Italia 1352 <br/> S2000 DFB, Rosario. Argentina </p>
+        <div className='footer1 pt-5'>
+            <div
+                className='d-flex justify-content-between'
+            >
+                <div
+                    className='d-flex flex-column px-5'
+                >
+                    <a>Nosotros</a>
+                    <a>Servicios</a>
+                    <a>Clientes</a>
+                    <a>Herramientas/Tecnologías</a>
+                    <a>Contacto</a>
+                    <a>Asistencia</a>
+                    <a>Trabaja con nosotros</a>
+                </div>
+                <div
+                    className='me-5 d-flex justify-content-center align-items-start'
+                >
+                    <img 
+                        className='footer-logo'
+                        src={serticLogo} 
+                        alt='Logo SerTIC' 
+                    />
+                </div>
+                <div
+                    className='px-5 d-flex flex-column align-items-center justify-content-around'
+                >
+                    <div>
+                        <img alt='linkedin-icon'/>
+                        <img alt='google-currents-icon'/>
+                    </div>
+                    <FontAwesomeIcon
+                        className='arrow'
+                        icon={faArrowUp} 
+                        // as={}
+                    />
+                </div>
             </div>
 
-            <div className='footer-columns'>
-                <h3> 
-                    <FontAwesomeIcon icon={faPhoneAlt} className='icons' />
-                    { t("Footer.phone") } 
-                    <hr color='#1ce'/>
-                </h3>
-                
-                <p className='footer-info'> +543415282575 / +5493416932434 </p>
-            </div>
-
-            <div className='footer-columns'>
-                <h3> 
-                    <FontAwesomeIcon icon={faEnvelope} className='icons' />
-                    { t("Footer.email") }
-                    <hr color='#1ce'/>
-                </h3>
-                <p className='footer-info'>contacto@sertic.com.ar</p>
+            <div
+                className='d-flex justify-content-center pb-1'
+            >
+                <p>Diseñado por @ciruelodisdigital</p>
             </div>
         </div>
-
-        <div className='footer-below'>
+        <div className='footer2 d-flex justify-content-center'>
             <p>Copyright © SerTIC 2022. All Rights Reserved</p>
         </div>
     </>

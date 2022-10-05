@@ -1,4 +1,4 @@
-import React from 'react';
+
 import homeWallpapaer from '../assets/Fondos/fondo-home.png';
 import fingerprintLogo from '../assets/Huella Logo/huella-logo.png';
 import '../style/home/home.css';

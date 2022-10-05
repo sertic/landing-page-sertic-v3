@@ -1,9 +1,7 @@
-import React from 'react';
-
 export const ReturnClient = ({ dark, link, img, name }) => {
   console.log(img);
   return (
-    <div className='box-client'>
+    <div>
       <a 
         className={`client ${ dark ? 'text-light' : 'text-dark'}`} 
         href={ link } 

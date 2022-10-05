@@ -1,0 +1,13 @@
+.arrow{
+        cursor: pointer;
+        color: #0074a2 !important;
+        width: 50px !important;
+        height: 50px !important;
+        font-size: 100px !important;
+}
+
+
+.members-arrow{
+    position: absolute;
+    right: 20px;
+}

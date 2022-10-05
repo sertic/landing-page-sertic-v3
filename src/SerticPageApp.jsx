@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Clients } from "./components/Clients/Clients";
 import { ClientsPartners } from "./components/Clients/ClientsPartners";
 import { Contact } from "./components/Contact/Contact";
 import { Footer } from "./components/Footer";
