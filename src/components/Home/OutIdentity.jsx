@@ -37,7 +37,7 @@ export const OutIdentity = () => {
         <Row
         className='mb-4'
         >
-            <h1>NUESTRA IDENTIDAD</h1>
+            <h2>NUESTRA IDENTIDAD</h2>
         </Row>
         <Row
         className='row'

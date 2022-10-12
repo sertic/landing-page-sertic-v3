@@ -38,25 +38,22 @@ export const Services = ({ dark }) => {
     const [t] = useTranslation("global");
   
     return (
-        <div className='my-5'>
+        <>
             <img 
                 className='w-100 background-services' 
                 src={backgroundServices} 
                 alt="background" 
             />
-            <section className='text-center my-5'>
-                <h1 
-                    className='p-5'
-                >
+            <section className='text-center mb-5'>
+                <h1 className='p-5'>
                     { t("services.title") }
                 </h1>
 
-                <div className='d-flex flex-wrap justify-content-center align-items-center'>
-
+                <div className='d-flex flex-wrap justify-content-center'>
                 {
                     data.map( i =>(
                         <div 
-                        className='d-flex flex-column'
+                            className='w-25 m-3 d-flex flex-column align-items-center justify-content-between'
                         // style={
                         //         dark
                         //           ?
@@ -64,30 +61,22 @@ export const Services = ({ dark }) => {
                         //           :
                         //         {'backgroundColor':'#f1f1f1'}   
                         // }
-                    >
-                        <div
-                            className='mb-2 service-box-description d-flex flex-column align-items-center justify-content-around'
                         >
-                            <span>
-                                <img
-                                    width='150' 
-                                    src={fingerprint} 
-                                />
-                            </span>
+                            
+                            <img
+                                width='150' 
+                                src={fingerprint} 
+                            />
 
-                            <h2
-                                style={{'width':'60%'}}
-                            >
+                            <h4 style={{'width':'350px'}} >
                                 { t(`services.service${i.index}.title`) }
-                            </h2>
-                        </div>
-                        
-                        <div
-                                className='blockquote'
-                            >
+                            </h4>
+        
+                            <div className='mb-3'>
                                 {
                                     i.nItems.map(item => (
                                         <p
+                                            className='d-flex flex-column align-items-center justify-content-center'
                                             key={item}
                                             style={{'margin':'0px','width':'400px'}}
                                         >
@@ -96,15 +85,14 @@ export const Services = ({ dark }) => {
                                     ))
                                 }
                             </div>
-                    
+                            <button className='btn-services'>
+                                + info
+                            </button>
                     </div>
-                        
                     ))
                 }
-
-
                 </div>
-        </section>
-        </div>
+            </section>
+        </>
     );
 };

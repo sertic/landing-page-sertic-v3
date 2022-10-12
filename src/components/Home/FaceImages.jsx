@@ -2,8 +2,9 @@
 // import sliderImages from '../../assets/Imagenes Empleados/slider.png';
 import Slider from 'react-slick';
 import { members } from '../../data/members';
-import { CustomNextArrow } from '../Carousel/CustomNextArrow';
-import { NullArrow } from '../Carousel/NullArrow';
+import { CustomNextArrow } from '../Carousel/Arrows/CustomNextArrow';
+import { FaceArrow } from '../Carousel/Arrows/FaceArrow';
+import { NullArrow } from '../Carousel/Arrows/NullArrow';
 import { Members } from './Members';
 
 const settings = {
@@ -12,7 +13,7 @@ const settings = {
   slidesToShow: 1,
   slidesToScroll: 1,
   prevArrow: <NullArrow />,
-  nextArrow: <CustomNextArrow />
+  nextArrow: <FaceArrow />
 };
 
 export const FaceImages = () => {

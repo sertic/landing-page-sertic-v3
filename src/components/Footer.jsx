@@ -4,61 +4,64 @@ import { faMapMarkedAlt, faPhoneAlt, faEnvelope, faArrowUp } from '@fortawesome/
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useTranslation } from 'react-i18next';
 import serticLogo from '../assets/Logo/nuevo-logo-2.png';
+import { LinkedinCurrentIcons } from './Icons/LinkedinCurrentIcons';
 
 export const Footer = () => {
 
     const [t] = useTranslation("global");
 
-  return (
-    <>
-        <div className='footer1 pt-5'>
-            <div
-                className='d-flex justify-content-between'
-            >
+    return (
+        <>
+            <div className='footer1 pt-5'>
                 <div
-                    className='d-flex flex-column px-5'
+                    className='d-flex justify-content-between'
                 >
-                    <a>Nosotros</a>
-                    <a>Servicios</a>
-                    <a>Clientes</a>
-                    <a>Herramientas/Tecnologías</a>
-                    <a>Contacto</a>
-                    <a>Asistencia</a>
-                    <a>Trabaja con nosotros</a>
-                </div>
-                <div
-                    className='me-5 d-flex justify-content-center align-items-start'
-                >
-                    <img 
-                        className='footer-logo'
-                        src={serticLogo} 
-                        alt='Logo SerTIC' 
-                    />
-                </div>
-                <div
-                    className='px-5 d-flex flex-column align-items-center justify-content-around'
-                >
-                    <div>
-                        <img alt='linkedin-icon'/>
-                        <img alt='google-currents-icon'/>
+                    <div
+                        className='d-flex flex-column px-5'
+                    >
+                        <a href='#home' >{t('Sections.home')}</a>
+                        <a href='#services' >{t('Sections.services')}</a>
+                        <a href='#clients' >{t('Sections.clients')}</a>
+                        <a href='#partners' >{t('Sections.partners')}</a>
+                        <a href='#contact' >{t('Sections.contact')}</a>
+                        <a href='#assistance' >{t('Sections.assistance')}</a>
+                        <a href='#workWithUs' >{t('Sections.workWithUs')}</a>
                     </div>
-                    <FontAwesomeIcon
-                        className='arrow'
-                        icon={faArrowUp} 
-                        // as={}
-                    />
+                    <div
+                        className='me-5 d-flex justify-content-center align-items-start'
+                    >
+                        <img 
+                            className='footer-logo'
+                            src={serticLogo} 
+                            alt='Logo SerTIC' 
+                        />
+                    </div>
+                    <div
+                        className='px-5 d-flex flex-column align-items-center justify-content-around'
+                    >
+                        <LinkedinCurrentIcons />
+                        <a href="#home">
+                            <FontAwesomeIcon
+                                className='arrow'
+                                icon={faArrowUp} 
+                            />
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    className='d-flex justify-content-center align-items-center pb-1'
+                >
+                    <p>{t('Footer.design')}</p>
+                    <a 
+                        href='https://www.instagram.com/ciruelodisdigital/'
+                        target='blanck'
+                    >ciruelodisdigital</a>
                 </div>
             </div>
-
-            <div
-                className='d-flex justify-content-center pb-1'
-            >
-                <p>Diseñado por @ciruelodisdigital</p>
+            <div className='footer2 d-flex justify-content-center'>
+                <p>{t('Footer.rights')}</p>
             </div>
-        </div>
-        <div className='footer2 d-flex justify-content-center'>
-            <p>Copyright © SerTIC 2022. All Rights Reserved</p>
-        </div>
-    </>
-  );
+        </>
+    );
 };

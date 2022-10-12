@@ -1,12 +1,9 @@
 import inta from '../assets/Clientes/inta.png';
-import konecta from '../assets/Clientes/konecta.svg';
+import konecta from '../assets/Clientes/konecta.png';
 import mec from '../assets/Clientes/mec.png';
-import letis from '../assets/Clientes/leti.png';
+import letis from '../assets/Clientes/letis.png';
 import polo from '../assets/Clientes/polo.png';
-import autopista from '../assets/Clientes/autopista.png';
-import motorx from '../assets/Clientes/logo-motorx.svg';
-import expoagro from '../assets/Clientes/expoagro_logo.png';
-import swipro from '../assets/Clientes/swipro.jpg';
+import swipro from '../assets/Clientes/swipro.png';
 import faro from '../assets/Clientes/faro.png';
 import zona93 from '../assets/Clientes/zona93.png';
 
@@ -36,21 +33,6 @@ export const clients = [
         link :  'https://polotecnologico.net/',
         img  :   polo,
         name :  'PoloTecnologico'
-    },
-    {
-        link :  'https://autopista.santafe.gov.ar/',
-        img  :   autopista,
-        name :  'Autopista'
-    },
-    {
-        link :  'https://reba.motorx.la/',
-        img  :   motorx,
-        name :  'Motor X'
-    },
-    {
-        link :  'https://www.expoagro.com.ar/',
-        img  :   expoagro,
-        name :  'Expoagro'
     },
     {
         link :  'https://www.linkedin.com/company/sinax-medica/?originalSubdomain=ar',

@@ -1,5 +1,5 @@
 
-// import '../../css/clientes.css';
+import '../../style/clients.css';
 import Slider from 'react-slick';
 import { CustomCarousel } from '../Carousel/CustomCarousel';
 
@@ -19,10 +19,10 @@ export const GenericCustomSlider = ({dark, title, id, children}) => {
   return (
     <div 
       id={id} 
-      className='my-5'
+      className='clients'
     >
         <h1
-          className='d-flex justify-content-center my-5'
+          className='d-flex justify-content-center mt-5'
         >
             { title }
         </h1>

@@ -32,10 +32,12 @@ export const members = [
         sector: 'Administración y RRHH',
         list:[
             {
+                index: 1,
                 name: 'Francisco Mizzau',
                 img: mizzauImg
             },
             {
+                index: 2,
                 name: 'Camila Romero',
                 img: romeroImg
             },
@@ -45,14 +47,17 @@ export const members = [
         sector: 'Infraestructura',
         list:[
             {
+                index: 1,
                 name: 'Matías Herrera',
                 img: herreraImg
             },
             {
+                index: 2,
                 name: 'Ramiro Lemos',
                 img: lemosImg
             },
             {
+                index: 3,
                 name: 'Julián España',
                 img: españaImg
             }
@@ -62,18 +67,22 @@ export const members = [
         sector: 'Soporte Técnico',
         list:[
             {
+                index: 1,
                 name: 'Agustín Villalba',
                 img: villalbaImg
             },
             {
+                index: 2,
                 name: 'Santiago Torres',
                 img: torresImg
             },
             {
+                index: 3,
                 name: 'Joaquín García Brussa',
                 img: brussaImg
             },
             {
+                index: 4,
                 name: 'Nicolás Pura Nosti',
                 img: puranostiImg
             },        
@@ -83,18 +92,22 @@ export const members = [
         sector: 'Desarrollo',
         list:[
             {
+                index: 1,
                 name: 'Luis Gonzalez',
                 img: gonzalezImg
             },
             {
+                index: 2,
                 name: 'Marcos Laurito',
                 img: lauritoImg
             },
             {
+                index: 3,
                 name: 'Patricio Polito',
                 img: politoImg
             },
             {
+                index: 4,
                 name: 'Santiago Rivadeneira',
                 img: rivadeneiraImg
             }
@@ -104,18 +117,22 @@ export const members = [
         sector: 'Desarrollo',
         list:[
             {
-                name: 'Lucas Montesino',
-                img: montesinoImg
+                index: 1,
+                name: 'Agustín Villalba',
+                img: villalbaImg
             },
             {
+                index: 2,
                 name: 'Javier Carreño Marin',
                 img: marinImg
             },
             {
+                index: 3,
                 name: 'Claudio Caruzo',
                 img: caruzoImg
             },
             {
+                index: 4,
                 name: 'Digna Martínez de Gómez',
                 img: dignaImg
             }

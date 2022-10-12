@@ -1,15 +1,15 @@
 {
-    "sections":{
-        "Home":             "Inicio",
-        "About":            "Nosotros",
-        "Services":         "Servicios",
-        "Clients":          "Clientes",
-        "Contact":          "Contacto",
-        "Assistance":       "Asistencia"
+    "Sections":{
+        "home":             "Nosotros",
+        "services":         "Servicios",
+        "clients":          "Clientes",
+        "partners":         "Herramientas/Tecnologías",
+        "contact":          "Contacto",
+        "assistance":       "Asistencia",
+        "workWithUs":       "Trabajá con nosotros"
     },
-    "aboutUs":{
-        "title":            "Nuestra Identidad",
-        "img-text":         "Héctor A. García - CEO SysAdmin y Especialista en Seguridad Informática",
+    "Home":{
+        "title":            "NUESTRA IDENTIDAD",
         "description": {
             "text1":        "Hace más de 10 años que conformamos equipos de trabajo que proveen servicios tecnológicos a empresas que buscan un funcionamiento eficiente de sus recursos informáticos",
             "text2":        "Nuestra identidad está definida por tres pilares de trabajo:",
@@ -19,61 +19,68 @@
             "text6":        "Somos SerTIC"
         }
     },
-    "services":{
+    "Services":{
         "title":            "NUESTROS SERVICIOS",
         "service1":{
             "title":        "CONSULTORÍA",
-            "descr1":       "Transformación digital",
-            "descr2":       "Seguridad y Auditoría de Sistemas",
-            "descr3":       "Planes de contingencia",
-            "descr4":       "Procedimientos y políticas de respaldo de activos informáticos"
+            "descr1":       "Transformación digital.",
+            "descr2":       "Auditoría de Seguridad y Sistemas.",
+            "descr3":       "Planes de contingencia.",
+            "descr4":       "Políticas y procedimientos de respaldo de activos de TI."
         },
         "service2":{
             "title":        "SOPORTE INFORMÁTICO",
-            "descr1":       "Mantenimiento técnico",
-            "descr2":       "Soporte On-Site de técnicos especializados",
-            "descr3":       "Monitoreo de redes",
-            "descr4":       "Soluciones integrales para teletrabajo"
+            "descr1":       "Mantenimiento técnico.",
+            "descr2":       "Soporte en sitio de técnicos especializados.",
+            "descr3":       "Monitoreo de red.",
+            "descr4":       "Soluciones integrales para el teletrabajo."
         },
         "service3":{
             "title":        "OUTSOURCING, RECLUTAMIENTO Y CAPACITACIÓN",
-            "descr1":       "Búsqueda y Reclutamiento IT",
-            "descr2":       "Proyectos con/sin contratación directa"
+            "descr1":       "Búsqueda y reclutamiento de TI.",
+            "descr2":       "Proyectos con/sin contratación directa."
         },
         "service4":{
             "title":        "INFRAESTRUCTURA Y SOLUCIONES EN LA NUBE",
-            "descr1":       "Servidores",
-            "descr2":       "Aplicaciones",
-            "descr3":       "Servicios"
+            "descr1":       "Servidores.",
+            "descr2":       "Aplicaciones.",
+            "descr3":       "Servicios."
         },
         "service5":{
             "title":        "DESARROLLO DE SOFTWARE",
-            "descr1":       "Desarrollo web y mobile",
-            "descr2":       "DevOps Culture"
+            "descr1":       "Desarrollo web y móvil.",
+            "descr2":       "Cultura DevOps."
             
         }
         
     },
     "Clients":{
-        "title":            "Empresas que confian en SerTIC"
+        "title":            "CONFÍAN EN SERTIC"
+    },    
+    "Partners":{
+        "title":            "TECNOLOGÍAS Y HERRAMIENTAS"
     },
-    "Contact":{
-        "title":            "Contactanos por correo",
-        "name":             "Nombre",
-        "email":            "Correo",
+    "ContactInfo":{
+        "title":            "Escribinos. Llamanos. Visitanos.",
+        "email":            "Correo electrónico",
         "phone":            "Teléfono",
-        "message":          "Mensaje",
+        "address":          "Dirección"
+    },
+    "SendEmail":{
+        "title":            "Envianos tu mensajes.",
+        "name":             "nombre y apellido",
+        "email":            "correo electrónico",
+        "phone":            "teléfono",
+        "message":          "mensaje/consulta",
         "button":           "Enviar",
         "error":            "Uno de los campos está incompleto",
         "success":          "Mensaje enviado correctamente!",
         "waiting":          "Espere.." 
     },
     "Footer":{
-        "location":         "Ubicación",
-        "phone":            "Teléfono",
-        "email":            "E-mail"    
+        "design":           "Diseñado por @",
+        "rights":           "Copyright © SerTIC 2022. Todos los derechos reservados."
     }
-
 }
 
 

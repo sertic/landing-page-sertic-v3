@@ -1,0 +1,22 @@
+.sendemail{
+    height: 90%;
+    width: 44%;
+    background-color: rgb(255, 255, 255, 0.9);;
+}
+
+.sendemail input, 
+.sendemail textarea, 
+.sendemail input :hover, 
+.sendemail textarea :hover, 
+.sendemail input :focus, 
+.sendemail textarea :focus{
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+    border-radius: 0px;
+    border-bottom: 4px solid #0074a2;
+}
+
+.sendemail textarea{
+    height: 50%;
+    resize: none;
+}

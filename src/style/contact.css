@@ -1,0 +1,12 @@
+.background-contact{
+    z-index: -10;
+    /* width: 100vw; */
+    height: 160vh;
+    position: absolute; 
+    top: 400vh;
+}
+
+.contact{
+    color: #676c6c;
+    margin-top: 30vh;
+}

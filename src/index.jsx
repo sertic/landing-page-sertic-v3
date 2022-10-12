@@ -4,6 +4,7 @@ import './style/index.css';
 import './style/button.css';
 import './style/arrow.css';
 import './style/icons.css';
+import './style/scroll.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

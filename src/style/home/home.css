@@ -9,8 +9,8 @@
 }
 
 
-.container h1{
-    font-weight: bolder;
+.container h2{
+    font-weight:500;
 }
 
 .container p{
@@ -20,7 +20,7 @@
 
 .home-wallpaper{
     object-fit: cover;
-    height: 110vh;
+    height: 100vh;
     width: 100%;
 }
 

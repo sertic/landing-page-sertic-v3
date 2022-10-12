@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import '../style/navbar.css';
 import { useTranslation } from 'react-i18next';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons'
 import lightImg  from '../assets/Icono Noche Dia/dia.png';
 import darkImg from '../assets/Icono Noche Dia/noche.png';
 import serticLogo from '../assets/Logo/nuevo-logo-1.png'
 import { Nav, Navbar, Button } from 'react-bootstrap';
+import linkedinIcon from '../assets/Icons/linkedin.png';
+import googleCurrentsIcon from '../assets/Icons/google-currents.png';
+import { LinkedinCurrentIcons } from './Icons/LinkedinCurrentIcons';
+
 
 export const NavBar = ({ setDark }) => {
 
@@ -111,9 +113,10 @@ return (
               aria-labelledby={`offcanvasNavbarLabel-expand-xl`}
               placement="start"
             ></Navbar.Offcanvas>
-            <div>
-                <img alt='linkedin-icon'/>
-                <img alt='google-currents-icon'/>
+            <div
+              className='mx-2'
+            >
+              <LinkedinCurrentIcons />
             </div>
     </Navbar>
   </>

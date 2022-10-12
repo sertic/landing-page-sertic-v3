@@ -6,8 +6,23 @@
         font-size: 100px !important;
 }
 
+.slick-next{
+    right: -70px;
+}
+
+.slick-prev{
+    left: -70px;
+}
 
 .members-arrow{
     position: absolute;
-    right: 20px;
+    right: 30px;
+}
+
+.arrow-faces{
+    position:relative;
+    width: 100px !important;
+    height: 100px !important;
+    left: 45vw;
+    top: 10px
 }

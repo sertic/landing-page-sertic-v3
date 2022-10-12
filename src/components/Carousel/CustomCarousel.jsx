@@ -2,8 +2,8 @@ import Slider from 'react-slick';
 import { useTranslation } from 'react-i18next';
 import { ReturnClient } from '../Clients/ReturnClient';
 import  {clients}  from '../../data/clients';
-import { CustomPrevArrow } from './CustomPrevArrow';
-import { CustomNextArrow } from './CustomNextArrow';
+import { CustomPrevArrow } from './Arrows/CustomPrevArrow';
+import { CustomNextArrow } from './Arrows/CustomNextArrow';
 
 console.log(window.innerWidth);
 
@@ -19,7 +19,7 @@ const settings = {
   nextArrow: <CustomNextArrow />
 };
 
-export const CustomCarousel = ({children, dark, data}) => {
+export const CustomCarousel = ({children}) => {
 
   const [t] = useTranslation("global");
 

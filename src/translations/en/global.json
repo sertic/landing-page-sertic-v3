@@ -1,77 +1,84 @@
 {
     "sections":{
-        "Home":             "Home",
-        "About":            "About",
-        "Services":         "Services",
-        "Clients":          "Clients",
-        "Contact":          "Contact",
-        "Assistance":       "Assistance"
+        "home":             "Nosotros",
+        "services":         "Servicios",
+        "clients":          "Clientes",
+        "partners":          "Herramientas/Tecnologías",
+        "contact":          "Contacto",
+        "assistance":       "Asistencia",
+        "workWithUs":       "Trabajá con nosotros"
     },
-    "aboutUs":{
-        "title":            "Our Identity",
-        "img-text":         "Héctor A. García - CEO SysAdmin and Information Security Specialist",
-        "description": {    
-            "text1":        "For more than 10 years we have formed work teams that provide technological services to companies that seek an efficient operation of their computer resources",
-            "text2":        "Our identity is defined by three work pillars:",
-            "text3":        "We're curious. We believe that there is always something more to see, to learn and to improve. We want to take knowledge to the next level",
-            "text4":        "We're colleagues. Both internally and externally, we seek to create networks and committed work relationships, together we are better",
-            "text5":        "We're agile. We know where to focus when faced with emergencies and how to prioritize the necessary actions to find solutions and achieve goals",
-            "text6":        "We are SerTIC"
+    "home":{
+        "title":            "NUESTRA IDENTIDAD",
+        "description": {
+            "text1":        "Hace más de 10 años que conformamos equipos de trabajo que proveen servicios tecnológicos a empresas que buscan un funcionamiento eficiente de sus recursos informáticos",
+            "text2":        "Nuestra identidad está definida por tres pilares de trabajo:",
+            "text3":        "Somos curiosos. Creemos que siempre hay algo más por ver, por aprender y por mejorar. Queremos llevar los conocimientos al siguiente nivel",
+            "text4":        "Somos colegas. Tanto internamente como de forma externa, buscamos crear redes y relaciones comprometidas de trabajo, juntos somos mejores",
+            "text5":        "Somos ágiles. Sabemos donde poner foco ante las urgencias y cómo priorizar las acciones necesarias para encontrar soluciones y el alcance de objetivos",
+            "text6":        "Somos SerTIC"
         }
     },
     "services":{
-        "title":            "Our services",
+        "title":            "NUESTROS SERVICIOS",
         "service1":{
-            "title":        "Consultancy",
-            "descr1":       "Digital transformation",
-            "descr2":       "Security and Systems Audit",
-            "descr3":       "Contingency plans",
-            "descr4":       "IT asset backup policies and procedures"
+            "title":        "CONSULTORÍA",
+            "descr1":       "Transformación digital.",
+            "descr2":       "Auditoría de Seguridad y Sistemas.",
+            "descr3":       "Planes de contingencia.",
+            "descr4":       "Políticas y procedimientos de respaldo de activos de TI."
         },
-        "service2":{    
-            "title":        "Informatic support",
-            "descr1":       "Technical maintenance",
-            "descr2":       "On-Site support from specialized technicians",
-            "descr3":       "Network monitoring",
-            "descr4":       "Comprehensive solutions for teleworking"
+        "service2":{
+            "title":        "SOPORTE INFORMÁTICO",
+            "descr1":       "Mantenimiento técnico.",
+            "descr2":       "Soporte en sitio de técnicos especializados.",
+            "descr3":       "Monitoreo de red.",
+            "descr4":       "Soluciones integrales para el teletrabajo."
         },
-        "service3":{    
-            "title":        "Outsourcing, Recruiting y Training",
-            "descr1":       "IT Search and Recruitment",
-            "descr2":       "Projects with/without direct contracting"
-
+        "service3":{
+            "title":        "OUTSOURCING, RECLUTAMIENTO Y CAPACITACIÓN",
+            "descr1":       "Búsqueda y reclutamiento de TI.",
+            "descr2":       "Proyectos con/sin contratación directa."
         },
-        "service4":{    
-            "title":        "Infrastructure and Cloud Solutions",
-            "descr1":       "Servers",
-            "descr2":       "Applications",
-            "descr3":       "Services"
-
+        "service4":{
+            "title":        "INFRAESTRUCTURA Y SOLUCIONES EN LA NUBE",
+            "descr1":       "Servidores.",
+            "descr2":       "Aplicaciones.",
+            "descr3":       "Servicios."
         },
-        "service5":{    
-            "title":        "Software development",
-            "descr1":       "Web and mobile development",
-            "descr2":       "DevOps Culture"
+        "service5":{
+            "title":        "DESARROLLO DE SOFTWARE",
+            "descr1":       "Desarrollo web y móvil.",
+            "descr2":       "Cultura DevOps."
+            
         }
+        
     },
     "Clients":{
-        "title":            "Companies that trust SerTIC"
+        "title":            "CONFÍAN EN SERTIC"
+    },    
+    "Partners":{
+        "title":            "TECNOLOGÍAS Y HERRAMIENTAS"
     },
-    "Contact":{
-        "title":            "Contact Us By Email",
-        "name":             "Name",
-        "email":            "Email",
-        "phone":            "Phone",
-        "message":          "Message",
-        "button":           "Send",
-        "error":            "One of the fields is incomplete",
-        "success":          "Message sent successfully!!",
-        "waiting":          "Loading.." 
+    "ContactInfo":{
+        "title":            "Escribinos. Llamanos. Visitanos.",
+        "email":            "Correo electrónico",
+        "phone":            "Teléfono",
+        "address":          "Dirección"
+    },
+    "SendEmail":{
+        "title":            "Envianos tu mensajes.",
+        "name":             "nombre y apellido",
+        "email":            "correo electrónico",
+        "phone":            "teléfono",
+        "message":          "mensaje/consulta",
+        "button":           "Enviar",
+        "error":            "Uno de los campos está incompleto",
+        "success":          "Mensaje enviado correctamente!",
+        "waiting":          "Espere.." 
     },
     "Footer":{
-        "location":         "Location",
-        "phone":            "Phone",
-        "email":            "E-mail"    
+        "design":           "Diseñado por",
+        "rights":           "Copyright © SerTIC 2022. All Rights Reserved"
     }
-
 }

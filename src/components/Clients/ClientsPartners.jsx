@@ -9,9 +9,7 @@ export const ClientsPartners = () => {
     const [t] = useTranslation('global');
 
     return (
-        <section
-            className='container'
-        >
+        <section>
                 <GenericCustomSlider
                     title={ t('Clients.title') }
                     id='clients'
