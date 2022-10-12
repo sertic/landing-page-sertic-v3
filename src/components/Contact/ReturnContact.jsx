@@ -1,18 +1,20 @@
 import '../../style/contact-info.css';
+import { useTranslation } from 'react-i18next';
 
 export const ReturnContact = () => {
+    const [t] = useTranslation("global");
     return (
         <div
             className='contact-info d-flex flex-column justify-content-center px-5 py-2'
         >
             <h3>
-                Escribinos. Llamanos. Visitanos.
+                { t("ContactInfo.title") }
             </h3>
             <div
                 className='my-2'
             >
                 <p>
-                    Correo electrónico:
+                    { t("ContactInfo.email") }:
                 </p>
                 <b>
                     contacto@sertic.com.ar
@@ -22,7 +24,7 @@ export const ReturnContact = () => {
                 className='my-2'
             >
                 <p>
-                    Teléfono:
+                { t("ContactInfo.phone") }:
                 </p>
                 <b>
                     + 54 9 341 528-2575 / (15)6932434
@@ -32,7 +34,7 @@ export const ReturnContact = () => {
                 className='my-2'
             >
                 <p>
-                    Dirección:
+                    { t("ContactInfo.address") }:
                 </p>
                 <b>
                     Urquiza 1285 PA S2000ANI - Rosario - Argentina

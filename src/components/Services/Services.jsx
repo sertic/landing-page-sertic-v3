@@ -46,7 +46,7 @@ export const Services = ({ dark }) => {
             />
             <section className='text-center mb-5'>
                 <h1 className='p-5'>
-                    { t("services.title") }
+                    { t("Services.title") }
                 </h1>
 
                 <div className='d-flex flex-wrap justify-content-center'>
@@ -69,7 +69,7 @@ export const Services = ({ dark }) => {
                             />
 
                             <h4 style={{'width':'350px'}} >
-                                { t(`services.service${i.index}.title`) }
+                                { t(`Services.service${i.index}.title`) }
                             </h4>
         
                             <div className='mb-3'>
@@ -80,7 +80,7 @@ export const Services = ({ dark }) => {
                                             key={item}
                                             style={{'margin':'0px','width':'400px'}}
                                         >
-                                            { t(`services.service${i.index}.descr${item}`) }
+                                            { t(`Services.service${i.index}.descr${item}`) }
                                         </p>
                                     ))
                                 }

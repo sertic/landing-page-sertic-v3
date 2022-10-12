@@ -25,7 +25,7 @@ export const ClientsPartners = () => {
                     }
                 />
                 <GenericCustomSlider
-                    title='TECNOLOGÍAS Y HERRAMIENTAS'
+                    title={ t('Partners.title') }
                     id='partners'
                     children={
                         clients.map( ({ link, img, name }) =>(

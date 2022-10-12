@@ -5,7 +5,7 @@ import lightImg  from '../assets/Icono Noche Dia/dia.png';
 import darkImg from '../assets/Icono Noche Dia/noche.png';
 import serticLogo from '../assets/Logo/nuevo-logo-1.png'
 import { Nav, Navbar, Button, Offcanvas } from 'react-bootstrap';
-import { LinkedinCurrentIcons } from './Icons/LinkedinCurrentIcons';
+import { LinkedinCurrentIcons } from '../Icons/LinkedinCurrentIcons';
 
 
 export const NavBar = ({ setDark }) => {
@@ -89,7 +89,7 @@ return (
                 <h2
                   className='btn'
                 >
-                  Asistencia
+                  {t('Assistance.title')}
                 </h2>
             </Nav.Link>
         </Nav.Item>

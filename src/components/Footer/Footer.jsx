@@ -4,7 +4,7 @@ import { faMapMarkedAlt, faPhoneAlt, faEnvelope, faArrowUp } from '@fortawesome/
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useTranslation } from 'react-i18next';
 import serticLogo from '../assets/Logo/nuevo-logo-2.png';
-import { LinkedinCurrentIcons } from './Icons/LinkedinCurrentIcons';
+import { LinkedinCurrentIcons } from '../Icons/LinkedinCurrentIcons';
 
 export const Footer = () => {
 

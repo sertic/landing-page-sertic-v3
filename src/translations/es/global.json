@@ -89,6 +89,16 @@
             "assistance":       "Asistencia",
             "workWithUs":       "Trabajá con nosotros"
         }
+    },
+    "Sectors":{
+        "sector1":              "Gerente General SysAdmin y Especialista en Seguridad de la Información.",
+        "sector2":              "Administración y RRHH",
+        "sector3":              "Infraestructura",
+        "sector4":              "Soporte Técnico",
+        "sector5":              "Desarrollo"
+    },
+    "Assistance":{
+        "title":                "Asistencia"
     }
 }
 

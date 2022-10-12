@@ -20,7 +20,7 @@ import dignaImg         from '../assets/Fotos integrantes/Digna-12.png';
 
 export const members = [
     {
-        sector: 'Gerente General SysAdmin y Especialista en Seguridad de la Información.',
+        sector: 'sector1',
         list: [
             {
                 name: 'Héctor A. García',
@@ -29,7 +29,7 @@ export const members = [
         ]
     },
     {
-        sector: 'Administración y RRHH',
+        sector: 'sector2',
         list:[
             {
                 index: 1,
@@ -44,7 +44,7 @@ export const members = [
         ]
     },
     {
-        sector: 'Infraestructura',
+        sector: 'sector3',
         list:[
             {
                 index: 1,
@@ -64,7 +64,7 @@ export const members = [
         ]
     },
     {
-        sector: 'Soporte Técnico',
+        sector: 'sector4',
         list:[
             {
                 index: 1,
@@ -89,7 +89,7 @@ export const members = [
         ]
     },
     {
-        sector: 'Desarrollo',
+        sector: 'sector5',
         list:[
             {
                 index: 1,
@@ -114,7 +114,7 @@ export const members = [
         ]
     },
     {
-        sector: 'Desarrollo',
+        sector: 'sector5',
         list:[
             {
                 index: 1,

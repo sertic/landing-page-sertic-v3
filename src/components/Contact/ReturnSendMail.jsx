@@ -25,7 +25,7 @@ export const ReturnSendMail = () => {
       })
       .fire({
         icon:   'info',
-        title:  t("Contact.waiting")
+        title:  t("SendEmail.waiting")
       })
     }
   }, [ loading ])
@@ -55,14 +55,14 @@ export const ReturnSendMail = () => {
       ref={form}
     >
         <h3>
-          { t("Contact.title") }
+          { t("SendEmail.title") }
         </h3>
         <input 
           name='name'
           className='form-control my-5'
           type='text' 
           value={ name } 
-          placeholder={ t("Contact.name") }
+          placeholder={ t("SendEmail.name") }
           onChange={ onChange }
         />
         <input 
@@ -70,7 +70,7 @@ export const ReturnSendMail = () => {
           className='form-control my-5'
           type='text' 
           value={ email } 
-          placeholder={ t("Contact.email") }
+          placeholder={ t("SendEmail.email") }
           onChange={ onChange }
         />
 
@@ -79,7 +79,7 @@ export const ReturnSendMail = () => {
           className='form-control my-5'
           type='text' 
           value={ phone } 
-          placeholder={ t("Contact.phone") }
+          placeholder={ t("SendEmail.phone") }
           onChange={ onChange }
         />
 
@@ -87,7 +87,7 @@ export const ReturnSendMail = () => {
           name='message'
           className='form-control my-5'  
           value={ message }
-          placeholder={ t("Contact.message") }
+          placeholder={ t("SendEmail.message") }
           onChange={ onChange }
         ></textarea>
         
@@ -97,7 +97,7 @@ export const ReturnSendMail = () => {
           onClick={ handleClick }
           disabled={ loading }
         > 
-          { t("Contact.button") } 
+          { t("SendEmail.button") } 
         </button>
     </form>
   </div>

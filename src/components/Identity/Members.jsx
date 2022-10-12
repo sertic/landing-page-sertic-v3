@@ -1,6 +1,9 @@
 import '../../style/home/members.css'
+import { useTranslation } from 'react-i18next';
 
 export const Members = ({ sector, members }) => {
+    const [t] = useTranslation("global");
+    
     return(
         <div
             className='member d-flex flex-wrap justify-content-around align-items-center'
@@ -22,7 +25,7 @@ export const Members = ({ sector, members }) => {
                         <p
                             className='d-flex justify-content-center align-items-center'
                         >
-                            {sector}
+                            {t(`Sectors.${sector}`)}
                         </p>
                     </div>
                 ))
