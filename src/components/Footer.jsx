@@ -19,22 +19,24 @@ export const Footer = () => {
                     <div
                         className='d-flex flex-column px-5'
                     >
-                        <a href='#home' >{t('Sections.home')}</a>
-                        <a href='#services' >{t('Sections.services')}</a>
-                        <a href='#clients' >{t('Sections.clients')}</a>
-                        <a href='#partners' >{t('Sections.partners')}</a>
-                        <a href='#contact' >{t('Sections.contact')}</a>
-                        <a href='#assistance' >{t('Sections.assistance')}</a>
-                        <a href='#workWithUs' >{t('Sections.workWithUs')}</a>
+                        <a href='#ouridentity' >{t('Footer.sections.ourIdentity')}</a>
+                        <a href='#services' >{t('Footer.sections.services')}</a>
+                        <a href='#clients' >{t('Footer.sections.clients')}</a>
+                        <a href='#partners' >{t('Footer.sections.partners')}</a>
+                        <a href='#contact' >{t('Footer.sections.contact')}</a>
+                        <a href='#assistance' >{t('Footer.sections.assistance')}</a>
+                        <a href='#workWithUs' >{t('Footer.sections.workWithUs')}</a>
                     </div>
                     <div
                         className='me-5 d-flex justify-content-center align-items-start'
                     >
-                        <img 
-                            className='footer-logo'
-                            src={serticLogo} 
-                            alt='Logo SerTIC' 
-                        />
+                        <a href="#home">
+                            <img 
+                                className='footer-logo'
+                                src={serticLogo} 
+                                alt='Logo SerTIC' 
+                            />
+                        </a>
                     </div>
                     <div
                         className='px-5 d-flex flex-column align-items-center justify-content-around'

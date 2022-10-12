@@ -36,3 +36,22 @@
     color: white;
     cursor: pointer;
 }
+
+.offcanvas{
+    margin-left: 20px;
+    height: 45vh;
+    padding: 0px 30px!important;
+    line-height: normal;
+}
+
+.offcanvas a{
+    color: #2e2e2e;
+    font-size:20px;
+
+}
+
+.btn-close{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}

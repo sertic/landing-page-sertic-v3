@@ -4,9 +4,7 @@ import { useTranslation } from 'react-i18next';
 import lightImg  from '../assets/Icono Noche Dia/dia.png';
 import darkImg from '../assets/Icono Noche Dia/noche.png';
 import serticLogo from '../assets/Logo/nuevo-logo-1.png'
-import { Nav, Navbar, Button } from 'react-bootstrap';
-import linkedinIcon from '../assets/Icons/linkedin.png';
-import googleCurrentsIcon from '../assets/Icons/google-currents.png';
+import { Nav, Navbar, Button, Offcanvas } from 'react-bootstrap';
 import { LinkedinCurrentIcons } from './Icons/LinkedinCurrentIcons';
 
 
@@ -27,7 +25,7 @@ export const NavBar = ({ setDark }) => {
     // localStorage.setItem('theme', theme);
     show();
   }
- 
+
   const show = () =>{
 
     if( showNavBar === 'collapse navbar-collapse' ){
@@ -99,6 +97,7 @@ return (
     <Navbar
       className="navbar justify-content-between align-items-center" 
       variant="dark"
+      expand={false}
       style={{'backgroundColor':'#4D4D4D'}}
     >
             <Navbar.Toggle 
@@ -108,11 +107,25 @@ return (
               as={'div'}
             />
             <Navbar.Offcanvas
-              className=''
+              className='d-flex flex-column px-5'
               id={`offcanvasNavbar-expand-xl`}
               aria-labelledby={`offcanvasNavbarLabel-expand-xl`}
               placement="start"
-            ></Navbar.Offcanvas>
+            >
+              <Offcanvas.Header closeButton>
+              </Offcanvas.Header>
+              <Offcanvas.Body>
+                <Nav className="justify-content-end flex-grow-1 pe-3">
+                  <Nav.Link href='#ouridentity'>{t('Sections.ourIdentity')}</Nav.Link>
+                  <Nav.Link href='#services'>{t('Sections.services')}</Nav.Link>
+                  <Nav.Link href='#clients'>{t('Sections.clients')}</Nav.Link>
+                  <Nav.Link href='#partners'>{t('Sections.partners')}</Nav.Link>
+                  <Nav.Link href='#contact'>{t('Sections.contact')}</Nav.Link>
+                  <Nav.Link href='#assistance'>{t('Sections.assistance')}</Nav.Link>
+                  <Nav.Link href='#workWithUs'>{t('Sections.workWithUs')}</Nav.Link>
+                </Nav>
+              </Offcanvas.Body>
+            </Navbar.Offcanvas>
             <div
               className='mx-2'
             >

@@ -10,7 +10,9 @@ export const SerticPageApp = () => {
     const [dark, setDark] = useState( localStorage.getItem('theme')  );
 
   return (
-    <>
+    <div
+      id='home'
+    >
       <NavBar
           setDark={ setDark }
       />
@@ -19,6 +21,6 @@ export const SerticPageApp = () => {
       <ClientsPartners />
       <Contact />
       <Footer />
-    </>
+    </div>
   )
 }

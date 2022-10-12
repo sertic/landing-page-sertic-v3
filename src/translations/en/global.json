@@ -1,14 +1,14 @@
 {
-    "sections":{
-        "home":             "Nosotros",
-        "services":         "Servicios",
-        "clients":          "Clientes",
-        "partners":          "Herramientas/Tecnologías",
-        "contact":          "Contacto",
-        "assistance":       "Asistencia",
-        "workWithUs":       "Trabajá con nosotros"
+    "Sections":{
+        "ourIdentity":      "NOSOTROS",
+        "services":         "SERVICIOS",
+        "clients":          "CLIENTES",
+        "partners":         "HERRAMIENTAS/TECNOLOGÍAS",
+        "contact":          "CONTACTO",
+        "assistance":       "ASISTENCIA",
+        "workWithUs":       "TRABAJÁ CON NOSOTROS"
     },
-    "home":{
+    "OurIdentity":{
         "title":            "NUESTRA IDENTIDAD",
         "description": {
             "text1":        "Hace más de 10 años que conformamos equipos de trabajo que proveen servicios tecnológicos a empresas que buscan un funcionamiento eficiente de sus recursos informáticos",
@@ -19,7 +19,7 @@
             "text6":        "Somos SerTIC"
         }
     },
-    "services":{
+    "Services":{
         "title":            "NUESTROS SERVICIOS",
         "service1":{
             "title":        "CONSULTORÍA",
@@ -79,6 +79,15 @@
     },
     "Footer":{
         "design":           "Diseñado por",
-        "rights":           "Copyright © SerTIC 2022. All Rights Reserved"
+        "rights":           "Copyright © SerTIC 2022. All Rights Reserved",
+        "sections":{
+            "ourIdentity":      "Nosotros",
+            "services":         "Servicios",
+            "clients":          "Clientes",
+            "partners":         "Herramientas/Tecnologías",
+            "contact":          "Contacto",
+            "assistance":       "Asistencia",
+            "workWithUs":       "Trabajá con nosotros"
+        }
     }
 }
