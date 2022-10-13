@@ -1,5 +1,4 @@
 
-import { WhatsAppFloat } from '../WhatsAppFloat';
 import { ReturnContact } from './ReturnContact';
 import { ReturnMap } from './ReturnMap';
 import { ReturnSendMail } from './ReturnSendMail';

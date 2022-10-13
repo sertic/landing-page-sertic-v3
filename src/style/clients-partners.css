@@ -1,9 +1,13 @@
-.clients{
-    margin-top: 100px;
+.carousel{
     width:80vw;
     position:relative;
     left: 10vw;
 }
+
+.clients-partners{
+    height: 100vh !important;
+}
+
 
 .client img{
     height: 15vh;

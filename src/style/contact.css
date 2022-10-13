@@ -1,9 +1,9 @@
 .background-contact{
     z-index: -10;
     /* width: 100vw; */
-    height: 160vh;
+    height: 150vh;
+    top: 410vh;
     position: absolute; 
-    top: 400vh;
 }
 
 .contact{

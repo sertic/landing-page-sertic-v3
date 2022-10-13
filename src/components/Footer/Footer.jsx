@@ -1,9 +1,8 @@
-
-import '../style/footer.css';
+import '../../style/footer.css';
 import { faMapMarkedAlt, faPhoneAlt, faEnvelope, faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useTranslation } from 'react-i18next';
-import serticLogo from '../assets/Logo/nuevo-logo-2.png';
+import serticLogo from '../../assets/Logo/nuevo-logo-2.png';
 import { LinkedinCurrentIcons } from '../Icons/LinkedinCurrentIcons';
 
 export const Footer = () => {
@@ -30,7 +29,7 @@ export const Footer = () => {
                     <div
                         className='me-5 d-flex justify-content-center align-items-start'
                     >
-                        <a href="#home">
+                        <a href="home#home">
                             <img 
                                 className='footer-logo'
                                 src={serticLogo} 

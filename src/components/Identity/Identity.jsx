@@ -1,11 +1,11 @@
 
-import homeWallpapaer from '../assets/Fondos/fondo-home.png';
-import fingerprintLogo from '../assets/Huella Logo/huella-logo.png';
-import '../style/home/home.css';
-import { FaceImages } from './Home/FaceImages';
-import { OutIdentity } from './Home/OutIdentity';
+import homeWallpapaer from '../../assets/Fondos/fondo-home.png';
+import fingerprintLogo from '../../assets/Huella Logo/huella-logo.png';
+import '../../style/home/home.css';
+import { FaceImages } from './FaceImages';
+import { OutIdentity } from './OutIdentity';
 
-export const Home = () => {
+export const Identity = () => {
   return (
     <div
       className='home'

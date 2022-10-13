@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import '../style/navbar.css';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import lightImg  from '../assets/Icono Noche Dia/dia.png';
-import darkImg from '../assets/Icono Noche Dia/noche.png';
-import serticLogo from '../assets/Logo/nuevo-logo-1.png'
+import '../../style/navbar.css';
+import lightImg  from '../../assets/Icono Noche Dia/dia.png';
+import darkImg from '../../assets/Icono Noche Dia/noche.png';
+import serticLogo from '../../assets/Logo/nuevo-logo-1.png'
 import { Nav, Navbar, Button, Offcanvas } from 'react-bootstrap';
 import { LinkedinCurrentIcons } from '../Icons/LinkedinCurrentIcons';
 
@@ -42,6 +42,7 @@ export const NavBar = ({ setDark }) => {
 return (
   <>
     <Navbar
+      id='home'
       className="navbar justify-content-between p-2 align-items-center" 
     >
         <Nav.Item
@@ -76,7 +77,7 @@ return (
 
         </Nav.Item>
         <Nav.Item>
-            <Nav.Link href="/home">
+            <Nav.Link href="/home#home">
               <img 
                 className='sertic-logo'
                 src={ serticLogo } 
@@ -85,7 +86,7 @@ return (
             </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-            <Nav.Link href="/asistencia">
+            <Nav.Link href="/assistance">
                 <h2
                   className='btn'
                 >
@@ -121,8 +122,8 @@ return (
                   <Nav.Link href='#clients'>{t('Sections.clients')}</Nav.Link>
                   <Nav.Link href='#partners'>{t('Sections.partners')}</Nav.Link>
                   <Nav.Link href='#contact'>{t('Sections.contact')}</Nav.Link>
-                  <Nav.Link href='#assistance'>{t('Sections.assistance')}</Nav.Link>
-                  <Nav.Link href='#workWithUs'>{t('Sections.workWithUs')}</Nav.Link>
+                  <Nav.Link href='assistance'>{t('Sections.assistance')}</Nav.Link>
+                  <Nav.Link href='workwithus'>{t('Sections.workWithUs')}</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

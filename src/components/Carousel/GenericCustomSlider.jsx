@@ -1,6 +1,5 @@
 
-import '../../style/clients.css';
-import Slider from 'react-slick';
+import '../../style/clients-partners.css';
 import { CustomCarousel } from '../Carousel/CustomCarousel';
 
 console.log(window.innerWidth);
@@ -19,10 +18,10 @@ export const GenericCustomSlider = ({dark, title, id, children}) => {
   return (
     <div 
       id={id} 
-      className='clients'
+      className='carousel'
     >
         <h1
-          className='d-flex justify-content-center mt-5'
+          className='d-flex justify-content-center mb-5'
         >
             { title }
         </h1>

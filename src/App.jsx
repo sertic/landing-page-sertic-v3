@@ -1,12 +1,12 @@
 import './App.css';
 import { I18nContext } from './context/I18nContext';
-import { SerticPageApp } from './SerticPageApp';
+import { AppRouter } from './routes/AppRouter';
 
 
 function App() {
   return (
     <I18nContext>
-      <SerticPageApp />
+      <AppRouter />
     </I18nContext>
   )
 }

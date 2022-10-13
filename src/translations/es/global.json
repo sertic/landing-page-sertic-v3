@@ -26,31 +26,52 @@
             "descr1":       "Transformación digital.",
             "descr2":       "Auditoría de Seguridad y Sistemas.",
             "descr3":       "Planes de contingencia.",
-            "descr4":       "Políticas y procedimientos de respaldo de activos de TI."
+            "descr4":       "Políticas y procedimientos de respaldo de activos de TI.",
+            "texts":{
+                "text1":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.",
+                "text2":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.",
+                "text3":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI."
+            }
         },
         "service2":{
             "title":        "SOPORTE INFORMÁTICO",
             "descr1":       "Mantenimiento técnico.",
             "descr2":       "Soporte en sitio de técnicos especializados.",
             "descr3":       "Monitoreo de red.",
-            "descr4":       "Soluciones integrales para el teletrabajo."
+            "descr4":       "Soluciones integrales para el teletrabajo.",
+            "texts":{
+                "text1":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.",
+                "text2":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI."
+            }
         },
         "service3":{
             "title":        "OUTSOURCING, RECLUTAMIENTO Y CAPACITACIÓN",
             "descr1":       "Búsqueda y reclutamiento de TI.",
-            "descr2":       "Proyectos con/sin contratación directa."
+            "descr2":       "Proyectos con/sin contratación directa.",
+            "texts":{
+                "text1":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.",
+                "text2":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI."
+            }
         },
         "service4":{
             "title":        "INFRAESTRUCTURA Y SOLUCIONES EN LA NUBE",
             "descr1":       "Servidores.",
             "descr2":       "Aplicaciones.",
-            "descr3":       "Servicios."
+            "descr3":       "Servicios.",
+            "texts":{
+                "text1":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.",
+                "text2":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.",
+                "text3":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI."
+            }
         },
         "service5":{
             "title":        "DESARROLLO DE SOFTWARE",
             "descr1":       "Desarrollo web y móvil.",
-            "descr2":       "Cultura DevOps."
-            
+            "descr2":       "Cultura DevOps.",
+            "texts":{
+                "text1":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.",
+                "text2":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI."
+            }
         }
         
     },
