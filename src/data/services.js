@@ -12,7 +12,7 @@ export const dataServices = [
         nItems:[1,2,3,4],
         nTexts:['text1','text2','text3'],
         img: serviceImg1,
-        id: 'consultory'
+        id: 'consultory',
     },
     {
         index:2,
@@ -20,7 +20,8 @@ export const dataServices = [
         nItems:[1,2,3,4],
         nTexts:['text1','text2'],
         img: serviceImg2,
-        id: 'support'
+        id: 'support',
+        side: 'flex-row-reverse'
     },
     {
         index:3,
@@ -28,7 +29,7 @@ export const dataServices = [
         nItems:[1,2],
         nTexts:['text1','text2'],
         img: serviceImg3,
-        id: 'outsourcing'
+        id: 'outsourcing',
     },
     {
         index:4,
@@ -36,7 +37,8 @@ export const dataServices = [
         nItems:[1,2,3],
         nTexts:['text1','text2','text3'],
         img: serviceImg4,
-        id: 'infraestructure'
+        id: 'infraestructure',
+        side: 'flex-row-reverse'
     },
     {
         index:5,
@@ -44,6 +46,6 @@ export const dataServices = [
         nItems:[1,2],
         nTexts:['text1','text2'],
         img: serviceImg5,
-        id: 'development'
+        id: 'development',
     }
 ]

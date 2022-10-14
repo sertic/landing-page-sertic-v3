@@ -5,6 +5,42 @@
     height: 100vh;
 }
 
+.service-background{
+    z-index:-10;
+    position: absolute;
+}
+
+.service-background-1{
+    height: 180vh;
+    width: 100%;
+    object-fit: cover;
+}
+.service-background-2{
+    height: 75vh;
+    width: 100%;
+}
+.service-background-3{
+    height: 180vh;
+    width: 100%;
+}
+
+.services{
+    color: #676c6c;
+    margin-top: 10vh !important;
+    margin-bottom: 20vh !important;
+}
+
+.service-img{
+    width: 45vw;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.service-text{
+    width: 45vw;
+    height: 60vh;
+}
+
 @media screen and ( max-device-width: 1500px ) {
     .service-box-description img{
         width: 70px;

@@ -1,0 +1,15 @@
+.workwithus-background{
+    z-index: -10;
+    position: absolute;
+    height: 190vh;
+    width: 100vw;
+}
+
+.workwithus-background img{
+    height: 100%;
+    width: 100%;
+}
+
+.workwithus{
+    height: 170vh;
+}
