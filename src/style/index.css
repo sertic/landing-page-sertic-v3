@@ -11,6 +11,10 @@ body {
     list-style: none;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 body a, body a:hover, body a:focus{
     text-decoration: none;
     color: white;

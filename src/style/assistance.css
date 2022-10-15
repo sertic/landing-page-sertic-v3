@@ -15,6 +15,30 @@
     font-style: italic;
 }
 
+.assistence-background{
+    z-index: -10;
+    position:absolute;
+}
+.assistance-img{
+    position:absolute;
+    z-index: -9;
+    width: 100vw !important;
+    height: 120vh !important;
+}
+
+.assistance-logo{
+    width: 25vw;
+    height: 40vh;
+}
+
+.assistance-logo h5{
+    color: white;
+    font-size: 25px;
+}
+.assistance{
+    height: 100vh !important;
+}
+
 btn{
     margin: 20px auto;
 }
