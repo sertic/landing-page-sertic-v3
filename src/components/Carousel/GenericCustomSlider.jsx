@@ -1,5 +1,5 @@
 
-import '../../style/clients-partners.css';
+import '../../style/clientsAndPartners/clients-partners.css';
 import { CustomCarousel } from '../Carousel/CustomCarousel';
 
 console.log(window.innerWidth);

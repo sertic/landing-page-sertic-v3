@@ -39,15 +39,22 @@
 
 .offcanvas{
     margin-left: 20px;
-    height: 45vh;
+    height: 50vh;
+    width: 450px;
     padding: 0px 30px!important;
     line-height: normal;
 }
 
 .offcanvas a{
-    color: #2e2e2e;
+    font-weight:bolder;
+    color: #686C6C;
     font-size:20px;
+    padding: 10px !important;
+}
 
+.offcanvas a:hover{
+    background-color: #686C6C;
+    color: #fff;
 }
 
 .btn-close{

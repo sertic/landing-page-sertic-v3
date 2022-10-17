@@ -1,30 +1,31 @@
 
-import homeWallpapaer from '../../assets/Fondos/fondo-home.png';
+import identityWallpapaer from '../../assets/Fondos/fondo-home.png';
 import fingerprintLogo from '../../assets/Huella Logo/huella-logo.png';
-import '../../style/home/home.css';
+import '../../style/identity/identity.css';
 import { FaceImages } from './FaceImages';
 import { OutIdentity } from './OutIdentity';
 
 export const Identity = () => {
   return (
     <div
-      className='home'
+      className='identity'
     >
         <img 
-          className='home-wallpaper'
-          src={homeWallpapaer} 
-          alt='home-wallpaper' 
+          className='identity-wallpaper'
+          src={identityWallpapaer} 
+          alt='identity-wallpaper' 
         />
         <img
-          className='huella-logo-wallpaper'
+          className='fingerprint-logo-wallpaper'
           src={fingerprintLogo}
           alt='huella-logo-wallpaper'
         />
         <div
-          className='d-flex align-items-center justify-content-center'
+          id='identity'
+          className='d-flex justify-content-center'
         >
-          <OutIdentity />
-          <FaceImages />
+            <OutIdentity />
+            <FaceImages />
         </div>
     </div>
   ); 

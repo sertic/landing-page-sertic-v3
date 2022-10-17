@@ -2,9 +2,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import Swal from 'sweetalert2';
 import { onSubmit } from '../../actions/contact-alert';
-import '../../style/sendemail.css';
+import '../../style/contact/sendemail.css';
 
-export const ReturnSendMail = () => {
+export const ContactSendMail = () => {
   const [t] = useTranslation("global");
   const [loading, setLoading] = useState( false )
   const form = useRef();

@@ -1,0 +1,12 @@
+.members p{
+    width: 11vw;
+}
+
+.members{
+    height: 90vh;
+    width: 50vw;
+}
+
+.member{
+    position: relative;
+}

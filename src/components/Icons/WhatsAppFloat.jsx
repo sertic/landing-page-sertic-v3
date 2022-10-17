@@ -1,4 +1,4 @@
-import '../style/wsp-icon.css';
+import '../style/icons/wsp-icon.css';
 
 export const WhatsAppFloat = () => {
   return (

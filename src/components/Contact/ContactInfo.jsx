@@ -1,18 +1,16 @@
-import '../../style/contact-info.css';
+import '../../style/contact/contact-info.css';
 import { useTranslation } from 'react-i18next';
 
-export const ReturnContact = () => {
+export const ContactInfo = () => {
     const [t] = useTranslation("global");
     return (
         <div
-            className='contact-info d-flex flex-column justify-content-center px-5 py-2'
+            className='contact-info d-flex flex-column justify-content-around px-5 py-5'
         >
             <h3>
                 { t("ContactInfo.title") }
             </h3>
-            <div
-                className='my-2'
-            >
+            <div>
                 <p>
                     { t("ContactInfo.email") }:
                 </p>
@@ -21,7 +19,6 @@ export const ReturnContact = () => {
                 </b>
             </div>
             <div
-                className='my-2'
             >
                 <p>
                 { t("ContactInfo.phone") }:
@@ -31,7 +28,6 @@ export const ReturnContact = () => {
                 </b>
             </div>
             <div
-                className='my-2'
             >
                 <p>
                     { t("ContactInfo.address") }:

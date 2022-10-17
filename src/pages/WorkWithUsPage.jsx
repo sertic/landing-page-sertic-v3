@@ -1,4 +1,4 @@
-import '../style/workwithus.css';
+import '../style/workWithUs/workWithUs.css';
 import { useTranslation } from "react-i18next";
 import workwithusImg1 from '../assets/Fondos/workwithus-1.png';
 import workwithusImg2 from '../assets/Fondos/workwithus-2.png';

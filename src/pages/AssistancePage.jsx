@@ -1,7 +1,7 @@
 import { Button, Form } from "react-bootstrap";
 import fingerprintLogo from '../assets/Huella/huella-servicios.png';
 import assistanceBackground from '../assets/Fondos/assistence-background.png';
-import '../style/assistance.css';
+import '../style/assistance/assistance.css';
 
 export const AssistancePage = () =>{
     return(
@@ -30,7 +30,7 @@ export const AssistancePage = () =>{
                 className='assistance d-flex flex-column align-items-center justify-content-center'
             >
                 <Form
-                    className='d-flex flex-column'
+                    className='d-flex flex-column align-items-center'
                 >
                     <Form.Group className="mb-3" controlId="formUser">
                         <Form.Control className='input-assistance' type='text' placeholder='Usuario' />
@@ -38,10 +38,10 @@ export const AssistancePage = () =>{
                     <Form.Group className="mb-3" controlId="formPassword">
                         <Form.Control className='input-assistance' type='password' placeholder='Contraseña' />
                     </Form.Group>
-                    <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                    <Form.Group className="w-100 d-flex justify-content-start mb-3" controlId="formBasicCheckbox">
                         <Form.Check type="checkbox" label="Recordarme" />
                     </Form.Group>
-                    <button className='btn'>Ingresar</button>
+                    <button className='my-4 btn'>Ingresar</button>
                 </Form>
             </div>
         </>

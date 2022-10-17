@@ -1,5 +1,5 @@
 
-import '../../style/services.css';
+import '../../style/services/services.css';
 import { useTranslation } from 'react-i18next';
 import backgroundServices from '../../assets/Fondos/fondo-services.png';
 import fingerprint from '../../assets/Huella/huella-servicios.png';
@@ -16,7 +16,10 @@ export const Services = ({ dark }) => {
                 src={backgroundServices} 
                 alt="background" 
             />
-            <section className='text-center mb-5'>
+            <section
+                id='services'
+                className='text-center mb-5'
+            >
                 <h1 className='p-5'>
                     { t("Services.title") }
                 </h1>

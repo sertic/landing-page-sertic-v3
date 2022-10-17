@@ -25,6 +25,7 @@ export const members = [
             {
                 name: 'Héctor A. García',
                 img: hectorImg,
+                style:{top:'20%'}
             }
         ]
     },
@@ -34,12 +35,14 @@ export const members = [
             {
                 index: 1,
                 name: 'Francisco Mizzau',
-                img: mizzauImg
+                img: mizzauImg,
+                style:{top:'25%'}
             },
             {
                 index: 2,
                 name: 'Camila Romero',
-                img: romeroImg
+                img: romeroImg,
+                style:{top:'10%'}
             },
         ]
     },
@@ -49,17 +52,20 @@ export const members = [
             {
                 index: 1,
                 name: 'Matías Herrera',
-                img: herreraImg
+                img: herreraImg,
+                style:{top:'40%'}
             },
             {
                 index: 2,
                 name: 'Ramiro Lemos',
-                img: lemosImg
+                img: lemosImg,
+                style:{top:'10%'}
             },
             {
                 index: 3,
                 name: 'Julián España',
-                img: españaImg
+                img: españaImg,
+                style:{top:'30%'}
             }
         ]
     },
@@ -69,22 +75,26 @@ export const members = [
             {
                 index: 1,
                 name: 'Agustín Villalba',
-                img: villalbaImg
+                img: villalbaImg,
+                style:{ left:'40%'}
             },
             {
                 index: 2,
                 name: 'Santiago Torres',
-                img: torresImg
+                img: torresImg,
+                style:{top:'50%', left:'25%' }
             },
             {
                 index: 3,
                 name: 'Joaquín García Brussa',
-                img: brussaImg
+                img: brussaImg,
+                style:{top:'30%', right:'20vw'}
             },
             {
                 index: 4,
                 name: 'Nicolás Pura Nosti',
-                img: puranostiImg
+                img: puranostiImg,
+                style:{top:'20%', right:'10%'}
             },        
         ]
     },
@@ -94,22 +104,26 @@ export const members = [
             {
                 index: 1,
                 name: 'Luis Gonzalez',
-                img: gonzalezImg
+                img: gonzalezImg,
+                style:{ left:'40%'}            
             },
             {
                 index: 2,
                 name: 'Marcos Laurito',
-                img: lauritoImg
+                img: lauritoImg,
+                style:{top:'50%', left:'25%' }            
             },
             {
                 index: 3,
                 name: 'Patricio Polito',
-                img: politoImg
+                img: politoImg,
+                style:{top:'30%', right:'20vw'}            
             },
             {
                 index: 4,
                 name: 'Santiago Rivadeneira',
-                img: rivadeneiraImg
+                img: rivadeneiraImg,
+                style:{top:'20%', right:'10%'}            
             }
         ]
     },
@@ -119,22 +133,26 @@ export const members = [
             {
                 index: 1,
                 name: 'Agustín Villalba',
-                img: villalbaImg
+                img: villalbaImg,
+                style:{ left:'40%'}            
             },
             {
                 index: 2,
                 name: 'Javier Carreño Marin',
-                img: marinImg
+                img: marinImg,
+                style:{top:'50%', left:'25%' }            
             },
             {
                 index: 3,
                 name: 'Claudio Caruzo',
-                img: caruzoImg
+                img: caruzoImg,
+                style:{top:'30%', right:'20vw'}            
             },
             {
                 index: 4,
                 name: 'Digna Martínez de Gómez',
-                img: dignaImg
+                img: dignaImg,
+                style:{top:'20%', right:'10%'}            
             }
         ]
     }

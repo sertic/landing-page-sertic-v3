@@ -1,4 +1,4 @@
-.home{
+.identity{
     height: 200vh;
     color: #676c6c;
 }
@@ -18,14 +18,14 @@
 }
 
 
-.home-wallpaper{
+.identity-wallpaper{
     object-fit: cover;
     height: 100vh;
     width: 100%;
 }
 
-.huella-logo-wallpaper{
-    top: 950px;
+.fingerprint-logo-wallpaper{
+    top: 800px;
     position: absolute;
     right: 0px;
 }

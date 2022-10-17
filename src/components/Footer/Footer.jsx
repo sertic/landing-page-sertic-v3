@@ -1,4 +1,4 @@
-import '../../style/footer.css';
+import '../../style/footer/footer.css';
 import { faMapMarkedAlt, faPhoneAlt, faEnvelope, faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useTranslation } from 'react-i18next';
@@ -18,13 +18,13 @@ export const Footer = () => {
                     <div
                         className='d-flex flex-column px-5'
                     >
-                        <a href='#ouridentity' >{t('Footer.sections.ourIdentity')}</a>
-                        <a href='#services' >{t('Footer.sections.services')}</a>
-                        <a href='#clients' >{t('Footer.sections.clients')}</a>
-                        <a href='#partners' >{t('Footer.sections.partners')}</a>
-                        <a href='#contact' >{t('Footer.sections.contact')}</a>
-                        <a href='#assistance' >{t('Footer.sections.assistance')}</a>
-                        <a href='#workWithUs' >{t('Footer.sections.workWithUs')}</a>
+                        <a href='home#identity' >{t('Footer.sections.ourIdentity')}</a>
+                        <a href='home#services' >{t('Footer.sections.services')}</a>
+                        <a href='home#clients' >{t('Footer.sections.clients')}</a>
+                        <a href='home#partners' >{t('Footer.sections.partners')}</a>
+                        <a href='home#contact' >{t('Footer.sections.contact')}</a>
+                        <a href='assistance' >{t('Footer.sections.assistance')}</a>
+                        <a href='workWithUs' >{t('Footer.sections.workWithUs')}</a>
                     </div>
                     <div
                         className='me-5 d-flex justify-content-center align-items-start'

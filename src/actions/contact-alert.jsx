@@ -9,7 +9,7 @@ export const onSubmit = async ( formData, form , setFormData, t, setLoading ) =>
     {
       Swal.fire({
         title: 'Error!',
-        text: t("Contact.error"),
+        text: t("SendEmail.error"),
         icon: 'error',
         confirmButtonText: 'Ok'
       })
@@ -21,7 +21,7 @@ export const onSubmit = async ( formData, form , setFormData, t, setLoading ) =>
           // Si está OK, arroja cartel de éxito y blanquea los campos del formulario
           Swal.fire({
             title: 'Excelente!',
-            text: t("Contact.success"),
+            text: t("SendEmail.success"),
             icon: 'success',
             confirmButtonText: 'Ok'
           })

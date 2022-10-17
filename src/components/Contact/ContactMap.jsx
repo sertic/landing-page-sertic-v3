@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import '../../style/map.css';
+import '../../style/contact/map.css';
 import mapboxgl from 'mapbox-gl';
 mapboxgl.accessToken = 'pk.eyJ1IjoiYWxlbGExMWkiLCJhIjoiY2t3Nmg4dzdqNzNndjJ2bXRxN29rcGY4byJ9.NEWRnqXP-98PS7S6lxcyRQ';
 
@@ -8,7 +8,7 @@ const initialPoint = [
     -32.95157218131647
   ];
 
-export const ReturnMap = () => {
+export const ContactMap = () => {
     const mapRef = useRef();
     const map = useRef();
 

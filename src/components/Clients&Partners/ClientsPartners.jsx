@@ -1,5 +1,5 @@
 
-import '../../style/clients-partners.css';
+import '../../style/clientsAndPartners/clients-partners.css';
 import { Clients } from './Clients/Clients';
 import { Partners } from './Partners/Partners';
 

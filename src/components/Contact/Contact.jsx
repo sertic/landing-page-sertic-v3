@@ -1,10 +1,10 @@
 
-import { ReturnContact } from './ReturnContact';
-import { ReturnMap } from './ReturnMap';
-import { ReturnSendMail } from './ReturnSendMail';
+import { ContactInfo } from './ContactInfo';
+import { ContactMap } from './ContactMap';
+import { ContactSendMail } from './ContactSendMail';
 import backgroundServices from '../../assets/Fondos/foto contacto-12.png';
-import '../../style/contact.css';
-import '../../style/info.css';
+import '../../style/contact/info.css';
+import '../../style/contact/contact.css';
 
 export const Contact = () => {
   return (
@@ -15,6 +15,7 @@ export const Contact = () => {
           alt="background" 
       />
       <section
+          id='contact'
           className='contact d-flex flex-row'
       >
         <div
@@ -24,13 +25,13 @@ export const Contact = () => {
           <div
             className='sendemail'
           >
-            <ReturnSendMail />
+            <ContactSendMail />
           </div>
           <div
             className='info d-flex flex-column justify-content-between'
           >
-            <ReturnMap />
-            <ReturnContact />
+            <ContactMap />
+            <ContactInfo />
           </div>
         </div>
         {/* <WhatsAppFloat /> */}

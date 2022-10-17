@@ -5,8 +5,8 @@ import { homeListItems, IdentityText, identityTexts } from '../../data/identity-
 
 
 export const OutIdentity = () => {
-  const [t] = useTranslation("global");
-  return (
+    const [t] = useTranslation("global");
+    return (
     <div
         className='mx-5 px-5 container'
     >
@@ -19,16 +19,16 @@ export const OutIdentity = () => {
         className='row'
         >
             <p>
-              {t('OurIdentity.description.text1')}
+                {t('OurIdentity.description.text1')}
             </p>
         </Row>
         <Row
         className='my-2'
         >
             <h5
-            className='font-black'
+                className='font-black'
             >
-              {t('OurIdentity.description.text2')}
+                {t('OurIdentity.description.text2')}
             </h5>
         </Row>
         <ul
@@ -52,5 +52,5 @@ export const OutIdentity = () => {
         }
         </ul>
     </div>
-  )
+    )
 }
