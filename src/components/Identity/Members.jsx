@@ -19,7 +19,7 @@ export const Members = ({ sector, members }) => {
                         <img 
                             src={img}
                             alt={name}
-                            width={400-30*(members.length)}
+                            style={{'width':`${25-(3*members.length)}vw`}}
                         />
                         <p
                             className='d-flex justify-content-center'

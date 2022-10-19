@@ -24,7 +24,7 @@
     width: 100%;
 }
 
-.services{
+.service{
     color: #676c6c;
     margin-top: 10vh !important;
     margin-bottom: 20vh !important;
@@ -41,8 +41,35 @@
     height: 60vh;
 }
 
+.fingerprint-img-services{
+    width: 7vw;
+}
+
+h4{
+    /* width: 350px; */
+}
+
+.services p{
+    margin: 0px;
+    width: 400px;
+}
+
 @media screen and ( max-device-width: 1500px ) {
-    .service-box-description img{
-        width: 70px;
+
+    h2{
+        font-size: 17px !important;
     }
+    .services p{
+        margin: 0px;
+        width: 300px;
+    }
+
+    .services{
+        height: 150vh;
+    }
+
+    .background-services{
+        height: 150vh;
+    }
+    
 }

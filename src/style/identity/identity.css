@@ -1,5 +1,5 @@
 .identity{
-    height: 200vh;
+    height: 100vh;
     color: #676c6c;
 }
 
@@ -20,12 +20,13 @@
 
 .identity-wallpaper{
     object-fit: cover;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
 }
 
 .fingerprint-logo-wallpaper{
-    top: 800px;
+    width: 35vw;
+    top: 105vh;
     position: absolute;
     right: 0px;
 }
@@ -53,4 +54,24 @@
     .arrow{
         height: 40px;
     }
+}
+
+@media screen and ( max-device-width: 1100px ) {
+
+    .identity{
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .container {
+        padding: 0px !important;
+        width: 80vw;
+    }
+
+    .fingerprint-logo-wallpaper{
+        width: 50vw;
+        top: 110vh;
+        right: 0px;
+    }
+
 }

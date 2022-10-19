@@ -1,5 +1,6 @@
 
 // import sliderImages from '../../assets/Imagenes Empleados/slider.png';
+import fingerprintLogo from '../../assets/Huella Logo/huella-logo.png';
 import Slider from 'react-slick';
 import { members } from '../../data/members';
 import { CustomNextArrow } from '../Carousel/Arrows/CustomNextArrow';
@@ -13,26 +14,33 @@ const settings = {
   slidesToShow: 1,
   slidesToScroll: 1,
   prevArrow: <NullArrow />,
-  nextArrow: <FaceArrow />
+  nextArrow: <NullArrow />
 };
 
 export const FaceImages = () => {
   return (
-    <div
-      className='w-50'
-    >   
-      <Slider 
-        {...settings}
-      >
-        {
-          members.map(({ sector, list })=>(
-          <Members 
-            sector={ sector }
-            members={ list }
+    <>
+        <div
+          className='list-members'
+        >   
+          <img
+            className='fingerprint-logo-wallpaper'
+            src={fingerprintLogo}
+            alt='huella-logo-wallpaper'
           />
-          ))
-        }
-      </Slider>
-    </div>
+          <Slider 
+            {...settings}
+          >
+            {
+              members.map(({ sector, list })=>(
+              <Members 
+                sector={ sector }
+                members={ list }
+              />
+              ))
+            }
+          </Slider>
+        </div>
+    </>
   )
 }

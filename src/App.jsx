@@ -1,4 +1,3 @@
-import './App.css';
 import { I18nContext } from './context/I18nContext';
 import { AppRouter } from './routes/AppRouter';
 

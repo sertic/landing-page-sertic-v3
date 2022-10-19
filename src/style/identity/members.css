@@ -1,12 +1,37 @@
+.list-members{
+    width: 50%;
+}
+
 .members p{
-    width: 11vw;
+    width: 200px;
 }
 
 .members{
-    height: 90vh;
-    width: 50vw;
+    height: 100%;
+    width: 100%;
 }
 
 .member{
     position: relative;
+}
+
+@media screen and ( max-device-width: 1100px ) {
+
+    .member{
+        /* width: 100vw; */
+    }
+
+    .members p{
+        width: 30vw;
+    }
+
+    .members{
+        height: 50vh;
+        width: 100%;
+    }
+
+    .list-members{
+        width: 100vw;
+    }
+
 }

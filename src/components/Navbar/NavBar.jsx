@@ -16,13 +16,13 @@ return (
   <>
     <Navbar
       id='home'
-      className='navbar justify-content-between p-2 align-items-center' 
+      className='navbar1 justify-content-between p-2 align-items-center' 
     >
         <Nav.Item
-            className='d-flex align-items-center'
+            className='language-darklight d-flex align-items-center'
         >
-            {/* <NavbarDarkLightButton /> */}
-            {/* <NavbarSetLanguage /> */}
+            <NavbarDarkLightButton />
+            <NavbarSetLanguage />
         </Nav.Item>
         <Nav.Item>
             <Nav.Link href='/home#home'>
@@ -36,7 +36,7 @@ return (
         <Nav.Item>
             <Nav.Link href='/assistance'>
                 <h2
-                  className='btn'
+                  className='btn assistance-btn'
                 >
                   {t('Assistance.title')}
                 </h2>
@@ -44,7 +44,7 @@ return (
         </Nav.Item>
     </Navbar>
     <Navbar
-      className='navbar justify-content-between align-items-center' 
+      className='justify-content-between align-items-center' 
       variant='dark'
       expand={false}
       style={{'backgroundColor':'#4D4D4D'}}

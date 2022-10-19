@@ -47,10 +47,9 @@ export const ContactSendMail = () => {
   };
 
   return (
-    <div 
-      className='d-flex flex-column p-5'
-    >
+
     <form
+      className='d-flex flex-column p-5'
       onSubmit={ handleClick }
       ref={form}
     >
@@ -59,7 +58,7 @@ export const ContactSendMail = () => {
         </h3>
         <input 
           name='name'
-          className='form-control my-5'
+          className='form-control'
           type='text' 
           value={ name } 
           placeholder={ t("SendEmail.name") }
@@ -67,7 +66,7 @@ export const ContactSendMail = () => {
         />
         <input 
           name='email'
-          className='form-control my-5'
+          className='form-control'
           type='text' 
           value={ email } 
           placeholder={ t("SendEmail.email") }
@@ -76,7 +75,7 @@ export const ContactSendMail = () => {
 
         <input 
           name='phone'
-          className='form-control my-5'
+          className='form-control'
           type='text' 
           value={ phone } 
           placeholder={ t("SendEmail.phone") }
@@ -85,7 +84,7 @@ export const ContactSendMail = () => {
 
         <textarea 
           name='message'
-          className='form-control my-5'  
+          className='form-control'  
           value={ message }
           placeholder={ t("SendEmail.message") }
           onChange={ onChange }
@@ -100,6 +99,5 @@ export const ContactSendMail = () => {
           { t("SendEmail.button") } 
         </button>
     </form>
-  </div>
   )
 }

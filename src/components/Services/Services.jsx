@@ -18,7 +18,7 @@ export const Services = ({ dark }) => {
             />
             <section
                 id='services'
-                className='text-center mb-5'
+                className='services text-center mb-5'
             >
                 <h1 className='p-5'>
                     { t("Services.title") }
@@ -39,11 +39,11 @@ export const Services = ({ dark }) => {
                         >
                             
                             <img
-                                width='150' 
+                                className='fingerprint-img-services'
                                 src={fingerprint} 
                             />
 
-                            <h4 style={{'width':'350px'}} >
+                            <h4>
                                 { t(`Services.service${i.index}.title`) }
                             </h4>
         
@@ -53,7 +53,6 @@ export const Services = ({ dark }) => {
                                         <p
                                             className='d-flex flex-column align-items-center justify-content-center'
                                             key={item}
-                                            style={{'margin':'0px','width':'400px'}}
                                         >
                                             { t(`Services.service${i.index}.descr${item}`) }
                                         </p>

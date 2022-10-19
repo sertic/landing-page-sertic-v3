@@ -7,9 +7,9 @@ export const HomePage = () =>{
     return(
         <div>
                 <Identity />
-                <Services />
-                <ClientsPartners />
-                <Contact />
+                {/* <Services /> */}
+                {/* <ClientsPartners /> */}
+                {/* <Contact /> */}
         </div>
     )
 }

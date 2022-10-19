@@ -20,9 +20,8 @@
 }
 
 .arrow-faces{
-    position:relative;
-    width: 100px !important;
-    height: 100px !important;
-    left: 45vw;
-    top: 10px
+    position:absolute;
+    width: 20vw !important;
+    height: 10vh !important;
+    top: 80vh;
 }

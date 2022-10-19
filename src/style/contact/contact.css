@@ -10,3 +10,12 @@
     color: #676c6c;
     margin-top: 30vh;
 }
+
+@media screen and ( max-device-width: 1500px ) {
+
+    .background-contact{
+        top: 510vh;
+    }
+    
+
+}
