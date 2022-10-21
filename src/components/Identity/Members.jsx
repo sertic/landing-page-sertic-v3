@@ -6,20 +6,19 @@ export const Members = ({ sector, members }) => {
     
     return(
         <div
-            className='members d-flex justify-content-center'
+            className='members d-flex justify-content-around '
         >
             {
-                members.map(({index, name, img, style}) =>(
+                members.map(({index, name, img, style, size}) =>(
                     <div
-                        className='member d-flex flex-column align-items-center'
+                        className={`${size} member d-flex flex-column align-items-center`}
                         id={index}
                         key={index}
-                        style={ style }
+                        style={style}
                     >
                         <img 
                             src={img}
                             alt={name}
-                            style={{'width':`${25-(3*members.length)}vw`}}
                         />
                         <p
                             className='d-flex justify-content-center'

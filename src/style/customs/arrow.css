@@ -16,12 +16,31 @@
 
 .members-arrow{
     position: absolute;
-    right: 30px;
+    right: 0px !important;
 }
 
 .arrow-faces{
     position:absolute;
-    width: 20vw !important;
+    width: 200px !important;
     height: 10vh !important;
     top: 80vh;
+    right: 0px !important;
+}
+
+@media screen and ( max-device-width: 1100px ) {
+
+    .arrow-faces{
+        width: 200px !important;
+        height: 10vh !important;
+        top: 350px;
+        right: 0px !important;
+    }
+}
+
+@media screen and ( max-device-width: 800px ) {
+
+    .arrow-faces{
+        width: 100px !important;
+    }
+
 }

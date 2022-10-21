@@ -2,7 +2,7 @@
     z-index: -10;
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: 1000px;
 }
 
 .service-background{
@@ -50,7 +50,7 @@ h4{
 }
 
 .services{
-    height: 400px;
+    height: 1000px;
 }
 
 .services p{
@@ -58,11 +58,13 @@ h4{
     width: 400px;
 }
 
+
+
 @media screen and ( max-device-width: 1500px ) {
 
-    h2{
+    /* .services h3{
         font-size: 17px !important;
-    }
+    } */
 
     .services-items h4{
         font-size: 23px;
@@ -76,7 +78,7 @@ h4{
     }
 
     .services{
-        height: 150vh;
+        height: 1500px;
     }
 
     .services-items{
@@ -86,7 +88,7 @@ h4{
     }
 
     .background-services{
-        height: 190vh;
+        height: 1500px;
     }
     
 }
@@ -95,7 +97,7 @@ h4{
 
     .services{
         justify-content: space-around !important;
-        height: 150vh;
+        height: 1500px;
     }
 
     .fingerprint-img-services{
@@ -111,7 +113,7 @@ h4{
     }
 
     .background-services{
-        height: 180vh;
+        height: 1500px;
     }
 
 }
@@ -123,7 +125,11 @@ h4{
         height: 300px;
     }
 
+    .services{
+        height: 2300px;
+    }
+
     .background-services{
-        height: 260vh;
+        height: 2300px;
     }
 }

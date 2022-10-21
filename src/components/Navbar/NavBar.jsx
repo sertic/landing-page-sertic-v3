@@ -53,7 +53,7 @@ return (
     >
             <NavbarOffcanva t={t} />
             <div
-              className='mx-5 px-5'
+              className='navbar-icons'
             >
               <LinkedinCurrentIcons />
             </div>

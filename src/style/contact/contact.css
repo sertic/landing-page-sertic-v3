@@ -16,6 +16,34 @@
     .background-contact{
         top: 510vh;
     }
-    
+}
 
+@media screen and ( max-device-width: 1000px ) {
+
+    .contact{
+        margin-top: 500px !important;
+        flex-direction: column;
+    }
+
+    .sendemail, .info{
+        width: 80vw;
+    }
+
+    .sendemail{
+        margin: 20px 0px;
+    }
+
+    .sendemail form{
+        height: 80vh;
+    }
+
+    .map{
+        height: 70vh;
+        margin: 20px 0px;
+    }
+
+    .contact-info{
+        height: 50vh;
+        margin: 20px 0px;
+    }
 }

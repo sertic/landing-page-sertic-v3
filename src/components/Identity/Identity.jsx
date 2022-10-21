@@ -2,7 +2,7 @@
 import identityWallpapaer from '../../assets/Fondos/fondo-home.png';
 import '../../style/identity/identity.css';
 import { FaceImages } from './FaceImages';
-import { OutIdentity } from './OutIdentity';
+import { OurIdentity } from './OurIdentity';
 
 export const Identity = () => {
   return (
@@ -16,7 +16,7 @@ export const Identity = () => {
           id='identity'
           className='identity d-flex justify-content-center'
         >
-            <OutIdentity />
+            <OurIdentity />
             <FaceImages />
         </div>
     </>

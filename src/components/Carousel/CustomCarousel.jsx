@@ -10,8 +10,8 @@ console.log(window.innerWidth);
 const settings = {
   dots: false,
   infinite: true,
-  slidesToShow: window.innerWidth > 1200 ? 3 : 2,
-  slidesToScroll: 3,
+  slidesToShow: window.innerWidth > 1500 ? 3 : 2,
+  slidesToScroll: window.innerWidth > 1500 ? 3 : 2,
   autoplay: true,
   speed: 3000,
   autoplaySpeed: 2000,

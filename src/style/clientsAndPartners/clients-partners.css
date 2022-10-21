@@ -4,12 +4,62 @@
     left: 10vw;
 }
 
+.carousel h1{
+    text-align: center;
+    color: #363a3a;
+}
+
 .clients-partners{
     height: 100vh !important;
 }
 
 
 .client img{
-    height: 15vh;
-    /* width: 15vw; */
+    height: 200px;
+}
+
+.client{
+    margin: 0px;
+}
+
+@media screen and ( max-device-width: 1500px ) {
+
+    .client img{
+        height: 150px;
+    }
+}
+
+@media screen and ( max-device-width: 1200px ) {
+
+    .client img{
+        height: 100px;
+    }
+
+}
+
+
+@media screen and ( max-device-width: 800px ) {
+
+    .carousel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slick-slider{
+        width: 60vw;
+    }
+
+    .client img{
+        height: 50px;
+    }
+}
+
+@media screen and ( max-device-width: 500px ) {
+
+    .client img{
+        height: 30px;
+    }
+
 }

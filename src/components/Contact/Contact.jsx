@@ -16,12 +16,10 @@ export const Contact = () => {
       />
       <section
           id='contact'
-          className='contact d-flex flex-row'
-      >
-        <div
-          className='d-flex justify-content-around align-items-center'
+          className='contact d-flex justify-content-around align-items-center'
           style={{width:'100vw'}}
-        >
+      >
+
           <div
             className='sendemail'
           >
@@ -33,7 +31,6 @@ export const Contact = () => {
             <ContactMap />
             <ContactInfo />
           </div>
-        </div>
         {/* <WhatsAppFloat /> */}
     </section>
     </>

@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { homeListItems, IdentityText, identityTexts } from '../../data/identity-text';
 
 
-export const OutIdentity = () => {
+export const OurIdentity = () => {
     const [t] = useTranslation("global");
     return (
     <div

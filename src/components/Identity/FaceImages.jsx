@@ -14,7 +14,7 @@ const settings = {
   slidesToShow: 1,
   slidesToScroll: 1,
   prevArrow: <NullArrow />,
-  nextArrow: <NullArrow />
+  nextArrow: <FaceArrow />
 };
 
 export const FaceImages = () => {

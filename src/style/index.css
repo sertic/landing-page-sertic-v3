@@ -21,6 +21,10 @@ body h1, h2, h3, h4, h5{
     font-family: 'Roboto Slab', serif;
 }
 
+body p{
+    font-size: 20px;
+}
+
 h1{
     font-size: 30px;
 }
@@ -34,21 +38,6 @@ body section{
     width: 100vw;
 }
 
-@media screen and ( max-device-width: 1500px ) {
-
-    body h1{
-        font-size: 30px;
-    }
-    body h2{
-        font-size: 25px;
-    }
-    body h4{
-        font-size: 20px;
-    }
-    body p{
-        font-size: 17px;
-    }
-}
 
 @media screen and ( max-device-width: 1500px ) {
 
@@ -77,4 +66,16 @@ body section{
 
 @media screen and ( max-device-width: 800px ) {
 
+    body h1{
+        /* font-size: 20px; */
+    }
+    body h2{
+        /* font-size: 35px; */
+    }
+    body h4{
+        /* font-size: 15px; */
+    }
+    body p{
+        font-size: 12px;
+    }
 }

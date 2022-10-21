@@ -1,0 +1,9 @@
+.navbar-icons{
+    margin-right: 100px;
+}
+
+@media screen and ( max-device-width: 1000px ) {
+    .navbar-icons{
+        margin-right: 50px;
+    } 
+}

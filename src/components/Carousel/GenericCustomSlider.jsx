@@ -20,11 +20,13 @@ export const GenericCustomSlider = ({dark, title, id, children}) => {
       id={id} 
       className='carousel'
     >
+
         <h1
-          className='d-flex justify-content-center mb-5'
+          className='mb-5'
         >
             { title }
         </h1>
+
         <CustomCarousel 
           children={children}
         />
