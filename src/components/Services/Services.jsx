@@ -28,14 +28,7 @@ export const Services = ({ dark }) => {
                 {
                     dataServices.map( i =>(
                         <div 
-                            className='services-items w-25 m-3 d-flex flex-column align-items-center justify-content-between'
-                        // style={
-                        //         dark
-                        //           ?
-                        //         {'backgroundColor':'#3F3F3F'}   
-                        //           :
-                        //         {'backgroundColor':'#f1f1f1'}   
-                        // }
+                            className='services-items d-flex flex-column align-items-center justify-content-around'
                         >
                             
                             <img
@@ -43,7 +36,9 @@ export const Services = ({ dark }) => {
                                 src={fingerprint} 
                             />
 
-                            <h4>
+                            <h4
+                                // className='d-flex flex-column justify-content-center'
+                            >
                                 { t(`Services.service${i.index}.title`) }
                             </h4>
         
@@ -51,7 +46,7 @@ export const Services = ({ dark }) => {
                                 {
                                     i.nItems.map(item => (
                                         <p
-                                            className='d-flex flex-column align-items-center justify-content-center'
+                                            // className='d-flex flex-column align-items-center justify-content-center'
                                             key={item}
                                         >
                                             { t(`Services.service${i.index}.descr${item}`) }

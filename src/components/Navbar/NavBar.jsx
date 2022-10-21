@@ -25,9 +25,11 @@ return (
             <NavbarSetLanguage />
         </Nav.Item>
         <Nav.Item>
-            <Nav.Link href='/home#home'>
+            <Nav.Link 
+              href='/home#home'
+              className='sertic-logo'
+            >
               <img 
-                className='sertic-logo'
                 src={ serticLogo } 
                 alt='sertic-logo'
               />

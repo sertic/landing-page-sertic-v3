@@ -60,4 +60,21 @@ body section{
         width: 100vw;
     }
 
+    body h1{
+        font-size: 40px;
+    }
+    body h2{
+        font-size: 35px;
+    }
+    body h4{
+        font-size: 30px;
+    }
+    body p{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and ( max-device-width: 800px ) {
+
 }
