@@ -24,11 +24,11 @@ export const Services = ({ dark }) => {
                     { t("Services.title") }
                 </h1>
 
-                <div className='d-flex flex-wrap justify-content-center'>
+                <div className='d-flex flex-wrap align-items-center justify-content-center'>
                 {
                     dataServices.map( i =>(
                         <div 
-                            className='w-25 m-3 d-flex flex-column align-items-center justify-content-between'
+                            className='services-items w-25 m-3 d-flex flex-column align-items-center justify-content-between'
                         // style={
                         //         dark
                         //           ?

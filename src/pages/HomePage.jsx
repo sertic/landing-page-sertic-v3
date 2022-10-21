@@ -6,8 +6,8 @@ import { ClientsPartners } from "../components/Clients&Partners/ClientsPartners"
 export const HomePage = () =>{
     return(
         <div>
-                <Identity />
-                {/* <Services /> */}
+                {/* <Identity /> */}
+                <Services />
                 {/* <ClientsPartners /> */}
                 {/* <Contact /> */}
         </div>

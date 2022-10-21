@@ -73,3 +73,31 @@ h4{
     }
     
 }
+
+@media screen and ( max-device-width: 1000px ) {
+
+    .services{
+        justify-content: space-around !important;
+        height: 100vh;
+    } 
+
+    .services p{
+        font-size: 15px;
+        height: 25px;
+    }
+
+    .background-services{
+        height: 100vh;
+    }
+    .services-items{
+        width: 40vw !important;
+    }
+}
+
+@media screen and ( max-device-width: 800px ) {
+
+    .services-items{
+        width: 40vw !important;
+    }
+
+}
