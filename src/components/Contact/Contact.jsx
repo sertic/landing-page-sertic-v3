@@ -9,17 +9,19 @@ import '../../style/contact/contact.css';
 export const Contact = () => {
   return (
     <>
-      <img 
-          className='w-100 background-contact' 
-          src={backgroundServices}
-          alt="background" 
-      />
       <section
           id='contact'
           className='contact d-flex justify-content-around align-items-center'
           style={{width:'100vw'}}
       >
-
+        <div
+          className='background-contact' 
+        >
+          <img 
+              src={backgroundServices}
+              alt="background" 
+          />
+        </div>
           <div
             className='sendemail'
           >

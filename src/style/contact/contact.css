@@ -1,27 +1,35 @@
 .background-contact{
     z-index: -10;
-    /* width: 100vw; */
     height: 150vh;
-    top: 410vh;
+    transform: translateY(-50px);
     position: absolute; 
+    width: 100vw;
+}
+
+.background-contact img{
+    width: 100%;
+    height: 100%;
 }
 
 .contact{
+    height: 100vh;
     color: #676c6c;
-    margin-top: 30vh;
+    margin-top: 150px;
 }
 
-@media screen and ( max-device-width: 1500px ) {
-
-    .background-contact{
-        top: 510vh;
-    }
-}
 
 @media screen and ( max-device-width: 1000px ) {
 
+    .contact h3{
+        font-size: 20px;
+    }
+
+    .contact b{
+        font-size: 15px;
+    }
+
     .contact{
-        margin-top: 500px !important;
+        height: 900px;
         flex-direction: column;
     }
 
@@ -30,20 +38,32 @@
     }
 
     .sendemail{
+        height: 550px;
         margin: 20px 0px;
     }
 
     .sendemail form{
-        height: 80vh;
+        height: 550px;
     }
 
     .map{
-        height: 70vh;
-        margin: 20px 0px;
+        display: none;
     }
 
     .contact-info{
-        height: 50vh;
-        margin: 20px 0px;
+        padding: 10px 20px !important;
+        height: 250px;
+        margin: 5px 0px;
     }
+
+    .background-contact{
+        height: 1100px;
+        width: 100vw;
+        transform: translateY(-100px);
+    }
+
+    .background-contact img{
+        /* object-fit:contain ; */
+    }
+
 }

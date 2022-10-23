@@ -25,7 +25,7 @@ export const AppRouter = () => {
                 <Route path='*' element={<Navigate to='/home'/>} />
             </Routes>
 
-            {/* <Footer /> */}
+            <Footer />
         </BrowserRouter>
     )
 }
