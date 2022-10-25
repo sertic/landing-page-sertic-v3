@@ -32,7 +32,7 @@
     .arrow-faces{
         width: 200px !important;
         height: 10vh !important;
-        top: 350px;
+        top: 550px;
         right: 0px !important;
     }
 }
@@ -40,11 +40,12 @@
 @media screen and ( max-device-width: 800px ) {
 
     .arrow-faces{
-        width: 100px !important;
+        top: 400px;
+        width: 40px !important;
     }
 
     .arrow{
-        width: 20px !important;
+        width: 20px;
     }
 
 }

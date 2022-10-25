@@ -36,14 +36,13 @@ export const members = [
                 index: 1,
                 name: 'Francisco Mizzau',
                 img: mizzauImg,
-                style:{top:'100px'},
-                size:'size-2'
+                size:'size-2 size-2-member-1'
             },
             {
                 index: 2,
                 name: 'Camila Romero',
                 img: romeroImg,
-                size:'size-2'
+                size:'size-2 size-2-member-2'
             },
         ]
     },
@@ -54,22 +53,19 @@ export const members = [
                 index: 1,
                 name: 'Matías Herrera',
                 img: herreraImg,
-                style:{top:'200px',left:'50px'},
-                size:'size-3'
+                size:'size-3 size-3-member-1'
             },
             {
                 index: 2,
                 name: 'Ramiro Lemos',
                 img: lemosImg,
-                style:{top:'100px'},
-                size:'size-3'
+                size:'size-3 size-3-member-2'
             },
             {
                 index: 3,
                 name: 'Julián España',
                 img: españaImg,
-                style:{top:'150px',right:'50px'},
-                size:'size-3'
+                size:'size-3 size-3-member-3'
             }
         ]
     },
@@ -80,29 +76,25 @@ export const members = [
                 index: 1,
                 name: 'Agustín Villalba',
                 img: villalbaImg,
-                style:{ left:'600px'},
-                size:'size-4'
+                size:'size-4 size-4-member-1'
             },
             {
                 index: 2,
                 name: 'Santiago Torres',
                 img: torresImg,
-                style:{top:'300px', left:'200px' },
-                size:'size-4'
+                size:'size-4 size-4-member-2'
             },
             {
                 index: 3,
                 name: 'Joaquín García Brussa',
                 img: brussaImg,
-                style:{top:'200px', right:'450px'},
-                size:'size-4'
+                size:'size-4 size-4-member-3'
             },
             {
                 index: 4,
                 name: 'Nicolás Pura Nosti',
                 img: puranostiImg,
-                style:{top:'150px', right:'350px'},
-                size:'size-4'
+                size:'size-4 size-4-member-4'
             },        
         ]
     },
@@ -113,29 +105,25 @@ export const members = [
                 index: 1,
                 name: 'Luis Gonzalez',
                 img: gonzalezImg,
-                style:{ left:'600px'},
-                size:'size-4'
+                size:'size-4 size-4-member-1'
             },
             {
                 index: 2,
                 name: 'Marcos Laurito',
                 img: lauritoImg,
-                style:{top:'300px', left:'200px' },
-                size:'size-4'
+                size:'size-4 size-4-member-2'
             },
             {
                 index: 3,
                 name: 'Patricio Polito',
                 img: politoImg,
-                style:{top:'200px', right:'450px'},
-                size:'size-4'
+                size:'size-4 size-4-member-3'
             },
             {
                 index: 4,
                 name: 'Santiago Rivadeneira',
                 img: rivadeneiraImg,
-                style:{top:'150px', right:'350px'},
-                size:'size-4'
+                size:'size-4 size-4-member-4'
             }
         ]
     },
@@ -146,29 +134,25 @@ export const members = [
                 index: 1,
                 name: 'Agustín Villalba',
                 img: villalbaImg,
-                style:{ left:'600px'},
-                size:'size-4'
+                size:'size-4 size-4-member-1'
             },
             {
                 index: 2,
                 name: 'Javier Carreño Marin',
                 img: marinImg,
-                style:{top:'300px', left:'200px' },
-                size:'size-4'
+                size:'size-4 size-4-member-2'
             },
             {
                 index: 3,
                 name: 'Claudio Caruzo',
                 img: caruzoImg,
-                style:{top:'200px', right:'450px'},
-                size:'size-4'
+                size:'size-4 size-4-member-3'
             },
             {
                 index: 4,
                 name: 'Digna Martínez de Gómez',
                 img: dignaImg,
-                style:{top:'150px', right:'350px'},
-                size:'size-4'
+                size:'size-4 size-4-member-4'
             }
         ]
     }

@@ -6,12 +6,12 @@ export const Members = ({ sector, members }) => {
     
     return(
         <div
-            className='members d-flex justify-content-around '
+            className='members d-flex justify-content-center align-items-center'
         >
             {
                 members.map(({index, name, img, style, size}) =>(
                     <div
-                        className={`${size} member d-flex flex-column align-items-center`}
+                        className={`${size} member d-flex flex-column justify-content-center align-items-center`}
                         id={index}
                         key={index}
                         style={style}
