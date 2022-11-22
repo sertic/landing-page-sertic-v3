@@ -8,7 +8,7 @@ export const OurIdentity = () => {
     const [t] = useTranslation("global");
     return (
     <div
-        className='mx-5 px-5 container'
+        className='our-identity-container'
     >
         <Row
         className='mb-4'
@@ -37,6 +37,7 @@ export const OurIdentity = () => {
         {
             identityTexts.map( ({ index, text, icon, style }) =>(
             <li
+                key={ index }
                 className='my-3 d-flex align-items-center'
             >
                 <img 

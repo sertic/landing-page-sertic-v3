@@ -5,6 +5,7 @@ import { ContactSendMail } from './ContactSendMail';
 import backgroundServices from '../../assets/Fondos/foto contacto-12.png';
 import '../../style/contact/info.css';
 import '../../style/contact/contact.css';
+import { WhatsAppFloat } from '../Icons/WhatsAppFloat';
 
 export const Contact = () => {
   return (
@@ -33,7 +34,7 @@ export const Contact = () => {
             <ContactMap />
             <ContactInfo />
           </div>
-        {/* <WhatsAppFloat /> */}
+        <WhatsAppFloat />
     </section>
     </>
   );

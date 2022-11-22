@@ -6,7 +6,7 @@ import '../../style/contact/sendemail.css';
 
 export const ContactSendMail = () => {
   const [t] = useTranslation("global");
-  const [loading, setLoading] = useState( false )
+  const [loading, setLoading] = useState( false );
   const form = useRef();
   const [formData, setFormData] = useState({
       name:'',

@@ -2,8 +2,6 @@
 import '../../style/clientsAndPartners/clients-partners.css';
 import { CustomCarousel } from '../Carousel/CustomCarousel';
 
-console.log(window.innerWidth);
-
 const settings = {
   dots: false,
   infinite: true,

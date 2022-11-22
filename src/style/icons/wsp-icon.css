@@ -1,14 +1,13 @@
-#wsp{
-    display: none;
-}
-
 .wsp-icon{
-    position: relative;
+    width: 80px;
+    height: 80px;
+    z-index: 20;
+    position: absolute;
     object-fit: cover;
     transition-duration: 1s;
     cursor: pointer;  
-    top: 400px; 
-    left: 150px; 
+    right: 7vw; 
+    transform: translateY(40vh);
 }
 
 .wsp-icon:hover{
@@ -16,9 +15,17 @@
 }
 
 
-@media screen and (max-device-width: 1300px) {
+@media screen and (max-device-width: 1100px) {
     .wsp-icon{
-        width: 60px;
-        height: 60px;
+        transform: translateY(40vh);
+        right: 2vw;
+    }
+}
+
+@media screen and (max-device-width: 800px) {
+
+    .wsp-icon{
+        transform: translateY(390px);
+        right: 0px; 
     }
 }

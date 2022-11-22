@@ -2,10 +2,11 @@ import { useTranslation } from 'react-i18next';
 import '../../style/navbar/navbar.css';
 import serticLogo from '../../assets/Logo/nuevo-logo-1.png'
 import { Nav, Navbar } from 'react-bootstrap';
-import { LinkedinCurrentIcons } from '../Icons/LinkedinCurrentIcons';
 import { NavbarOffcanva } from './NavbarOffcanva';
 import { NavbarSetLanguage } from './NavbarSetLanguage';
 import { NavbarDarkLightButton } from './NavbarDarkLightButton';
+import { CurrentIcons } from '../Icons/CurrentIcons';
+import { LinkedinIcons } from '../Icons/LinkedinIcons';
 
 
 export const NavBar = ({ setDark }) => {
@@ -36,7 +37,7 @@ return (
             </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-            <Nav.Link href='/assistance'>
+            <Nav.Link href='https://www.sertic.com.ar/glpi/'>
                 <h2
                   className='btn assistance-btn'
                 >
@@ -46,16 +47,17 @@ return (
         </Nav.Item>
     </Navbar>
     <Navbar
-      className='justify-content-between align-items-center' 
+      className='navbar2 justify-content-between align-items-center' 
       variant='dark'
       expand={false}
       style={{'backgroundColor':'#4D4D4D'}}
     >
             <NavbarOffcanva t={t} />
             <div
-              className='navbar-icons'
+              className='navbar-icons d-flex justify-content-center'
             >
-              <LinkedinCurrentIcons />
+                {/* <CurrentIcons /> */}
+                <LinkedinIcons />
             </div>
     </Navbar>
   </>

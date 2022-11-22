@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 export const ReturnService = ({title, img, index, texts, id, side}) =>{
     return(
         <div
-            className={`service my-5 d-flex align-items-center justify-content-between my-5 ${side}`}
+            className={`service-page my-5 d-flex align-items-center justify-content-between my-5 ${side}`}
             id={ id }
         >
             <div>
@@ -18,11 +18,11 @@ export const ReturnService = ({title, img, index, texts, id, side}) =>{
             >
                 <div>
                     <h3>{ title }</h3>
-                    {
+                    {/* {
                         texts.map( text =>(
                             <p>{text}</p>
                         ))
-                    }
+                    } */}
                 </div>
                 <div
                     className={`d-flex justify-content-start ${side}`}

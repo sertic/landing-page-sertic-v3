@@ -1,6 +1,10 @@
 .identity{
-    height: 100vh;
+    height: 900px;
     color: #676c6c;
+}
+
+.our-identity-container{
+    margin: 50px;
 }
 
 .container {
@@ -60,7 +64,7 @@
 @media screen and ( max-device-width: 1500px ) {
 
     .identity{
-        height: 150vh;
+        height: 800px !important;
     }
 
     .container {
@@ -98,9 +102,15 @@
 
 @media screen and ( max-device-width: 1100px ) {
 
+    .identity-img{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px !important;
+    }
+
     .identity{
         flex-direction: column;
-        height: 250vh !important;
+        height: 1300px !important;
     }
 
     .list-members{
@@ -120,10 +130,21 @@
 
 }
 
-@media screen and ( max-device-width: 800px ) {
+@media screen and ( max-device-width: 600px ) {
+
+    .fingerprint-logo-wallpaper{
+        width: 50vw;
+        top: 950px;
+        position: absolute;
+        right: 0px;
+    }
+
+    .our-identity-container{
+        margin: 20px;
+    }
 
     .identity{
-        height: 250vh !important;
+        height: 1000px !important;
     }
 
 }

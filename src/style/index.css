@@ -5,11 +5,10 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     background-color: #c6c8c8;
     font-family: 'Roboto', sans-serif;
     list-style: none;
-    /* overflow-x: hidden; */
 }
 
 body a, body a:hover, body a:focus{
@@ -22,7 +21,11 @@ body h1, h2, h3, h4, h5{
 }
 
 body p{
-    font-size: 20px;
+    font-size: 18px;
+}
+
+body a{
+    font-size: 18px;
 }
 
 h1{
@@ -30,7 +33,7 @@ h1{
 }
 
 .hover :hover{
-    color:#14739F;
+    color:#037fd6;
 }
 
 body section{
@@ -59,7 +62,10 @@ body section{
         font-size: 30px;
     }
     body p{
-        font-size: 20px;
+        font-size: 18px;
+    }
+    body a{
+        font-size: 18px;
     }
 
 }
@@ -76,6 +82,9 @@ body section{
         /* font-size: 15px; */
     }
     body p{
+        font-size: 12px;
+    }
+    body a{
         font-size: 12px;
     }
 }

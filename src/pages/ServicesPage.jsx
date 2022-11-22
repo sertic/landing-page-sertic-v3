@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { ReturnService } from "../components/Services/ReturnService";
+import { ReturnService } from "../components/Services/ServicePage/ReturnService";
 import { dataServices } from "../data/services";
 import serviceImgBackground1 from '../assets/Fondos/service-1.png';
 import serviceImgBackground2 from '../assets/Fondos/service-2.png';
@@ -18,11 +18,11 @@ export const ServicesPage = () =>{
                 <img className='service-background-3' src={ serviceImgBackground3 } alt="" />
             </div>
             <div
-                className='m-5 services'
+                className='m-5 services-page'
             >
 
                 <h1
-                    className='my-5 '
+                    className='m-5 '
                 >{ t("Services.title") }</h1>
                 {
                     dataServices.map( ({index, img, nTexts, id, side}) =>(

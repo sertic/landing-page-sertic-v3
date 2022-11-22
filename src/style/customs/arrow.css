@@ -3,7 +3,7 @@
         color: #0074a2 !important;
         width: 50px !important;
         height: 50px !important;
-        font-size: 100px !important;
+        /* font-size: 100px !important; */
 }
 
 .slick-next{
@@ -23,8 +23,16 @@
     position:absolute;
     width: 200px !important;
     height: 10vh !important;
-    top: 80vh;
+    top: 60vh;
     right: 0px !important;
+}
+
+@media screen and ( max-device-width: 1500px ) {
+
+    .arrow-faces{
+        top: 500px;
+    }
+
 }
 
 @media screen and ( max-device-width: 1100px ) {
@@ -38,14 +46,11 @@
 }
 
 @media screen and ( max-device-width: 800px ) {
-
     .arrow-faces{
         top: 400px;
         width: 40px !important;
     }
-
     .arrow{
         width: 20px;
     }
-
 }

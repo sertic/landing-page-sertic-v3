@@ -8,12 +8,21 @@
     height: 100%;
 }
 
+.sendemail [type=file] {
+    display: none;
+}
+
+.sendemail .inputfile-text{
+    color: rgb(99, 99, 99);
+}
+
 .sendemail input, 
 .sendemail textarea, 
 .sendemail input:hover, 
 .sendemail textarea:hover, 
 .sendemail input:focus, 
-.sendemail textarea:focus{
+.sendemail textarea:focus,
+.sendemail input:disabled{
     background-color: rgb(255, 255, 255, 0);
     border: none;
     box-shadow: none;
@@ -23,7 +32,7 @@
 }
 
 .sendemail textarea{
-    height: 300%;
+    height: 300px;
     resize: none;
 }
 
@@ -38,7 +47,7 @@
         margin-top: 2%;
     }
     .sendemail textarea{
-        height: 500%;
+        height: 200px;
     }
 
     .sendemail form{

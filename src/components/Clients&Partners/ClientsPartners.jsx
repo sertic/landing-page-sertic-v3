@@ -10,7 +10,7 @@ export const ClientsPartners = () =>{
             className='mb-5 d-flex flex-column justify-content-around'
         >
             <Clients />
-            <Partners />
+            {/* <Partners /> */}
         </section>
     )
 }

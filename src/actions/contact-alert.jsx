@@ -1,22 +1,30 @@
 import Swal from 'sweetalert2';
 import emailjs from 'emailjs-com';
 
-export const onSubmit = async ( formData, form , setFormData, t, setLoading ) => {
-    const { name, email, message, phone } = formData;
+export const onSubmit = async ( formData, form , setFormData, t, setStatus, initialState ) => {
+
+    Swal.mixin({
+        toast: true,
+        position: 'top-end',
+        showConfirmButton: false,
+      })
+      .fire({
+          icon:   'info',
+          title:  t("SendEmail.waiting")
+      })
 
     // Si hay campos vacios arroja cartel de error
-    if( !name.trim() || !email.trim() || !message.trim() || !phone.trim() )
+    if( Object.values(formData).map(i => i.trim() ).some( element => !element ) )
     {
-      Swal.fire({
+      setStatus( 'error' );
+      return Swal.fire({
         title: 'Error!',
         text: t("SendEmail.error"),
         icon: 'error',
         confirmButtonText: 'Ok'
       })
-      setLoading( false );
     }
-    else{
-      emailjs.sendForm('landingpage', 'templateweb', form.current, 'vthU-NiNWU4gM6DSq')
+      emailjs.sendForm('landing_sertic', 'template_e0468m8', form.current, 'JnK5L6atwPEYMVvlh')
       .then(() => {
           // Si está OK, arroja cartel de éxito y blanquea los campos del formulario
           Swal.fire({
@@ -25,14 +33,8 @@ export const onSubmit = async ( formData, form , setFormData, t, setLoading ) =>
             icon: 'success',
             confirmButtonText: 'Ok'
           })
-          setFormData({
-            ...formData,
-            name:'',
-            email:'',
-            message:'',
-            phone:''
-          })
-          setLoading( false );
+          setFormData( initialState )
+          setStatus( 'OK' );
 
       }, ({ text }) => {
         // En caso de error arroja cartel con mensaje de error traido de la petición
@@ -44,4 +46,3 @@ export const onSubmit = async ( formData, form , setFormData, t, setLoading ) =>
         })
       });
     };
-};

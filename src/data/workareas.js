@@ -1,0 +1,29 @@
+export const workAreas = [
+    {
+        text:'itSupport'
+    },
+    {
+        text:'infrastructure'
+    },
+    {
+        text:'development'
+    },
+    {
+        text:'managment'
+    },
+    {
+        text:'shopping'
+    },
+    {
+        text:'sales'
+    },
+    {
+        text:'marketing'
+    },
+    {
+        text:'humanResources'
+    },
+    {
+        text:'systems'
+    },
+]

@@ -35,7 +35,7 @@ export const clients = [
         name :  'PoloTecnologico'
     },
     {
-        link :  'https://www.linkedin.com/company/sinax-medica/?originalSubdomain=ar',
+        link :  'https://swipro.com.ar/',
         img  :   swipro,
         name :  'Swiss Protech'
     },

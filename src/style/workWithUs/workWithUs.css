@@ -1,8 +1,18 @@
 .workwithus-background{
     z-index: -10;
     position: absolute;
-    height: 190vh;
+    height: 150vh;
     width: 100vw;
+}
+
+.workwithus{
+    min-height: 70vh;
+}
+
+.workwithus-body{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .workwithus-background img{
@@ -10,6 +20,89 @@
     width: 100%;
 }
 
-.workwithus{
-    height: 170vh;
+.workwithus-section-1{
+    width: 50vw;
 }
+
+.workwithus-section-1 h3{
+    font-size: 20px !important;
+    width: 40vw;
+}
+
+.workwithus-image img{
+    width: 40vw;
+}
+
+.linkedin-icon-workwithus{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    outline: 7px solid #14739F;
+    border-radius: 50%;
+}
+
+.linkedin-icon-workwithus img{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+.workwithus-linkedin-section{
+    color: #14739F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.work-with-us-form{
+    color: #676c6c;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+
+.work-with-us-form-sent p{
+    margin: 35px 20px !important;
+}
+
+@media screen and ( max-device-width: 1500px ) {
+    .work-with-us-form-sent p{
+        margin: 15px 15px !important;
+    }
+    
+
+    .workwithus-background{
+        height: 170vh;
+    }
+}
+
+@media screen and ( max-device-width: 1000px ) {
+
+    .workwithus-body{
+        flex-direction: column;
+    }
+
+    .workwithus-section-1{
+        width: 100%;
+    }
+
+    .workwithus-section-1 h3{
+        width: 100%;
+    }
+
+    .workwithus-image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .workwithus-image img{
+        width: 60vw;
+    }
+}
+

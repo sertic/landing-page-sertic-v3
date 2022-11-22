@@ -32,11 +32,12 @@ export const FaceImages = () => {
             {...settings}
           >
             {
-              members.map(({ sector, list })=>(
-              <Members 
-                sector={ sector }
-                members={ list }
-              />
+              members.map(({ index,sector, list })=>(
+                <Members 
+                  key={ index }
+                  sector={ sector }
+                  members={ list }
+                />
               ))
             }
           </Slider>

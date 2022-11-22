@@ -5,6 +5,7 @@ import backgroundServices from '../../assets/Fondos/fondo-services.png';
 import fingerprint from '../../assets/Huella/huella-servicios.png';
 import { dataServices } from '../../data/services';
 import { useNavigation } from "react-router-dom";
+import { WhatsAppFloat } from '../Icons/WhatsAppFloat';
 
 export const Services = ({ dark }) => {
     const [t] = useTranslation("global");
@@ -28,21 +29,23 @@ export const Services = ({ dark }) => {
                 {
                     dataServices.map( i =>(
                         <div 
-                            className='services-items d-flex flex-column align-items-center justify-content-around'
+                            key={ i.index }
+                            className='services-items d-flex flex-column align-items-center justify-content-start'
                         >
-                            
-                            <img
-                                className='fingerprint-img-services'
-                                src={fingerprint} 
-                            />
+                            <div>
+                                <img
+                                    className='fingerprint-img-services'
+                                    src={fingerprint} 
+                                />
 
-                            <h4
-                                // className='d-flex flex-column justify-content-center'
-                            >
-                                { t(`Services.service${i.index}.title`) }
-                            </h4>
+                                <h4
+                                    // className='d-flex flex-column justify-content-center'
+                                >
+                                    { t(`Services.service${i.index}.title`) }
+                                </h4>
+                            </div>
         
-                            <div className='mb-3'>
+                            <div className='service-description'>
                                 {
                                     i.nItems.map(item => (
                                         <p
@@ -54,13 +57,13 @@ export const Services = ({ dark }) => {
                                     ))
                                 }
                             </div>
-                            <a href={`services#${i.id}`}>
+                            {/* <a href={`services#${i.id}`}>
                                 <button 
                                     className='btn-services'
                                 >
                                     + info
                                 </button>
-                            </a>
+                            </a> */}
                     </div>
                     ))
                 }

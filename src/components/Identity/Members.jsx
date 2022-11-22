@@ -9,11 +9,11 @@ export const Members = ({ sector, members }) => {
             className='members d-flex justify-content-center align-items-center'
         >
             {
-                members.map(({index, name, img, style, size}) =>(
+                members.map(({name, img, style, size}) =>(
                     <div
                         className={`${size} member d-flex flex-column justify-content-center align-items-center`}
-                        id={index}
-                        key={index}
+                        id={name}
+                        key={name}
                         style={style}
                     >
                         <img 

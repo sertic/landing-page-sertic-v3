@@ -1,5 +1,4 @@
 export const ReturnClient = ({ dark, link, img, name }) => {
-  console.log(img);
   return (
     <div>
       <a 

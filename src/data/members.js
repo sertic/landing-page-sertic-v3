@@ -20,6 +20,7 @@ import dignaImg         from '../assets/Fotos integrantes/Digna-12.png';
 
 export const members = [
     {
+        index: 1,
         sector: 'sector1',
         list: [
             {
@@ -30,6 +31,7 @@ export const members = [
         ]
     },
     {
+        index: 2,
         sector: 'sector2',
         list:[
             {
@@ -47,6 +49,7 @@ export const members = [
         ]
     },
     {
+        index: 3,
         sector: 'sector3',
         list:[
             {
@@ -70,6 +73,7 @@ export const members = [
         ]
     },
     {
+        index: 4,
         sector: 'sector4',
         list:[
             {
@@ -99,6 +103,7 @@ export const members = [
         ]
     },
     {
+        index: 5,
         sector: 'sector5',
         list:[
             {
@@ -128,12 +133,13 @@ export const members = [
         ]
     },
     {
+        index: 6,
         sector: 'sector5',
         list:[
             {
                 index: 1,
-                name: 'Agustín Villalba',
-                img: villalbaImg,
+                name: 'Lucas Montesino',
+                img: montesinoImg,
                 size:'size-4 size-4-member-1'
             },
             {
@@ -157,3 +163,8 @@ export const members = [
         ]
     }
 ]
+
+
+
+
+

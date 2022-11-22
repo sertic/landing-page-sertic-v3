@@ -15,7 +15,7 @@
 
 
 .client img{
-    height: 200px;
+    max-height: 180px;
 }
 
 .client{
@@ -25,7 +25,7 @@
 @media screen and ( max-device-width: 1500px ) {
 
     .client img{
-        height: 150px;
+        height: 120px;
     }
 }
 

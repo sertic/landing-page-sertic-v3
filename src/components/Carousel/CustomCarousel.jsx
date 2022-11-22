@@ -5,8 +5,6 @@ import  {clients}  from '../../data/clients';
 import { CustomPrevArrow } from './Arrows/CustomPrevArrow';
 import { CustomNextArrow } from './Arrows/CustomNextArrow';
 
-console.log(window.innerWidth);
-
 const settings = {
   dots: false,
   infinite: true,

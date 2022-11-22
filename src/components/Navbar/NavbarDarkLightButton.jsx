@@ -1,10 +1,12 @@
 import { useState } from 'react';
 import { Nav } from 'react-bootstrap';
-import lightImg  from '../../assets/Icono Noche Dia/dia.png';
-import darkImg from '../../assets/Icono Noche Dia/noche.png';
+import sunImgDefault  from '../../assets/Icono Noche Dia/dia.png';
+import sunImgHover  from '../../assets/Icono Noche Dia/dia-hover.png';
+import moonImg from '../../assets/Icono Noche Dia/noche.png';
 
 export const NavbarDarkLightButton = () => {
-    const [theme, setTheme] = useState(true)
+    const [theme, setTheme] = useState(true);
+    const [sunImg, setSunImg] = useState(sunImgDefault)
 
     const onHandleSetTheme = () => {
         setTheme( state => !state )
@@ -12,20 +14,27 @@ export const NavbarDarkLightButton = () => {
     }
 
     return (
+        
         <Nav.Link
-        className='light-dark-icon hover'
-        onClick={ onHandleSetTheme }
+            className='sun-moon-navlink hover'
+            onClick={ onHandleSetTheme }
+        >
+        <div
+            className='sun-moon-icon'
+            onMouseOver={ () => setSunImg(sunImgHover) }
+            onMouseOut={ ()=> setSunImg(sunImgDefault) }
         >
             <img 
-            className='dark'
-            src={ darkImg } 
-            alt='dark'
-            />
+                className='moon'
+                src={ moonImg } 
+                alt='moon'
+                />
             <img 
-            className='light'
-            src={ lightImg } 
-            alt='light' 
-            />
+                className='sun'
+                src={ sunImg } 
+                alt='sun' 
+                />
+                </div>
         </Nav.Link>
     )
 }

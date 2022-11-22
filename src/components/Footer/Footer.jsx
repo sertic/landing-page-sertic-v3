@@ -3,7 +3,8 @@ import { faMapMarkedAlt, faPhoneAlt, faEnvelope, faArrowUp } from '@fortawesome/
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useTranslation } from 'react-i18next';
 import serticLogo from '../../assets/Logo/nuevo-logo-2.png';
-import { LinkedinCurrentIcons } from '../Icons/LinkedinCurrentIcons';
+import { LinkedinIcons } from '../Icons/LinkedinIcons';
+import { CurrentIcons } from '../Icons/CurrentIcons';
 
 export const Footer = () => {
 
@@ -16,14 +17,14 @@ export const Footer = () => {
                     className='d-flex justify-content-between'
                 >
                     <div
-                        className='d-flex flex-column px-5'
+                        className='footer-nav'
                     >
                         <a href='home#identity' >{t('Footer.sections.ourIdentity')}</a>
                         <a href='home#services' >{t('Footer.sections.services')}</a>
                         <a href='home#clients' >{t('Footer.sections.clients')}</a>
                         <a href='home#partners' >{t('Footer.sections.partners')}</a>
                         <a href='home#contact' >{t('Footer.sections.contact')}</a>
-                        <a href='assistance' >{t('Footer.sections.assistance')}</a>
+                        <a href='https://www.sertic.com.ar/glpi/' >{t('Footer.sections.assistance')}</a>
                         <a href='workWithUs' >{t('Footer.sections.workWithUs')}</a>
                     </div>
                     <div
@@ -40,7 +41,12 @@ export const Footer = () => {
                     <div
                         className='px-5 d-flex flex-column align-items-center justify-content-around'
                     >
-                        <LinkedinCurrentIcons />
+                                <div
+                                    className='d-flex justify-content-center align-items-center'
+                                >
+                                    {/* <CurrentIcons /> */}
+                                    <LinkedinIcons />
+                                </div>
                         <a href="#home">
                             <FontAwesomeIcon
                                 className='arrow'

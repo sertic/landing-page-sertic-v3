@@ -1,93 +1,161 @@
 {
     "Sections":{
-        "ourIdentity":      "NOSOTROS",
-        "services":         "SERVICIOS",
-        "clients":          "CLIENTES",
-        "partners":         "HERRAMIENTAS/TECNOLOGÍAS",
-        "contact":          "CONTACTO",
-        "assistance":       "ASISTENCIA",
-        "workWithUs":       "TRABAJÁ CON NOSOTROS"
+        "home":             "HOME",
+        "ourIdentity":      "ABOUT US",
+        "services":         "SERVICES",
+        "clients":          "CLIENTS",
+        "partners":         "TOOLS/TECHNOLOGIES",
+        "contact":          "CONTACT",
+        "assistance":       "ASSISTANCE",
+        "workWithUs":       "WORK WITH US"
     },
     "OurIdentity":{
-        "title":            "NUESTRA IDENTIDAD",
+        "title":            "OUR IDENTITY",
         "description": {
-            "text1":        "Hace más de 10 años que conformamos equipos de trabajo que proveen servicios tecnológicos a empresas que buscan un funcionamiento eficiente de sus recursos informáticos",
-            "text2":        "Nuestra identidad está definida por tres pilares de trabajo:",
-            "text3":        "Somos curiosos. Creemos que siempre hay algo más por ver, por aprender y por mejorar. Queremos llevar los conocimientos al siguiente nivel",
-            "text4":        "Somos colegas. Tanto internamente como de forma externa, buscamos crear redes y relaciones comprometidas de trabajo, juntos somos mejores",
-            "text5":        "Somos ágiles. Sabemos donde poner foco ante las urgencias y cómo priorizar las acciones necesarias para encontrar soluciones y el alcance de objetivos",
-            "text6":        "Somos SerTIC"
+            "text1":        "For more than 10 years we have formed work teams that provide technological services to companies that seek efficient operation of their computing resources.",
+            "text2":        "Our identity is defined by three pillars of work:",
+            "text3":        "We are curious. We believe that there is always something more to see, to learn and to improve. We want to take knowledge to the next level",
+            "text4":        "We are colleagues. Both internally and externally, we seek to create networks and committed working relationships, together we are better",
+            "text5":        "We are agile. We know where to focus on emergencies and how to prioritize the necessary actions to find solutions and achieve objectives",
+            "text6":        "We are SerTIC"
         }
     },
     "Services":{
-        "title":            "NUESTROS SERVICIOS",
+        "title":            "OUR SERVICES",
         "service1":{
-            "title":        "CONSULTORÍA",
-            "descr1":       "Transformación digital.",
-            "descr2":       "Auditoría de Seguridad y Sistemas.",
-            "descr3":       "Planes de contingencia.",
-            "descr4":       "Políticas y procedimientos de respaldo de activos de TI."
+            "title":        "CONSULTANCY",
+            "descr1":       "Digital transformation.",
+            "descr2":       "Security and Systems Audit",
+            "descr3":       "Contingency plans.",
+            "descr4":       "IT asset backup policies and procedures.",
+            "texts":{
+                "text1":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.",
+                "text2":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.",
+                "text3":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI."
+            }
         },
         "service2":{
-            "title":        "SOPORTE INFORMÁTICO",
-            "descr1":       "Mantenimiento técnico.",
-            "descr2":       "Soporte en sitio de técnicos especializados.",
-            "descr3":       "Monitoreo de red.",
-            "descr4":       "Soluciones integrales para el teletrabajo."
+            "title":        "INFORMATIC SUPPORT",
+            "descr1":       "Technical maintenance.",
+            "descr2":       "On-site support from specialized technicians.",
+            "descr3":       "Network monitoring.",
+            "descr4":       "Comprehensive solutions for teleworking.",
+            "texts":{
+                "text1":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.",
+                "text2":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI."
+            }
         },
         "service3":{
-            "title":        "OUTSOURCING, RECLUTAMIENTO Y CAPACITACIÓN",
-            "descr1":       "Búsqueda y reclutamiento de TI.",
-            "descr2":       "Proyectos con/sin contratación directa."
+            "title":        "OUTSOURCING, RECRUITMENT AND TRAINING",
+            "descr1":       "IT search and recruitment.",
+            "descr2":       "Projects with/without direct contracting.",
+            "texts":{
+                "text1":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.",
+                "text2":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI."
+            }
         },
         "service4":{
-            "title":        "INFRAESTRUCTURA Y SOLUCIONES EN LA NUBE",
-            "descr1":       "Servidores.",
-            "descr2":       "Aplicaciones.",
-            "descr3":       "Servicios."
+            "title":        "INFRASTRUCTURE AND CLOUD SOLUTIONS",
+            "descr1":       "Servers.",
+            "descr2":       "Applications.",
+            "descr3":       "Services.",
+            "texts":{
+                "text1":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.",
+                "text2":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.",
+                "text3":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI."
+            }
         },
         "service5":{
-            "title":        "DESARROLLO DE SOFTWARE",
-            "descr1":       "Desarrollo web y móvil.",
-            "descr2":       "Cultura DevOps."
-            
+            "title":        "SOFTWARE DEVELOPMENT",
+            "descr1":       "Web and mobile development.",
+            "descr2":       "DevOps culture.",
+            "texts":{
+                "text1":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.",
+                "text2":    "Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI. Transformación digital. Audi- toría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI.Transformación digital. Auditoría de Seguridad y Sistemas. Planes de Contingencia. Políticas y procedimientos de respaldo de activos de TI."
+            }
         }
         
     },
     "Clients":{
-        "title":            "CONFÍAN EN SERTIC"
+        "title":            "CUSTOMERS WHO TRUST SERTIC"
     },    
     "Partners":{
-        "title":            "TECNOLOGÍAS Y HERRAMIENTAS"
+        "title":            "TECHNOLOGIES AND TOOLS"
     },
     "ContactInfo":{
-        "title":            "Escribinos. Llamanos. Visitanos.",
-        "email":            "Correo electrónico",
-        "phone":            "Teléfono",
-        "address":          "Dirección"
+        "title":            "Write to us. Call us. Visit us.",
+        "email":            "Email",
+        "phone":            "Telephone",
+        "address":          "Address"
     },
     "SendEmail":{
-        "title":            "Envianos tu mensajes.",
-        "name":             "nombre y apellido",
-        "email":            "correo electrónico",
-        "phone":            "teléfono",
-        "message":          "mensaje/consulta",
-        "button":           "Enviar",
-        "error":            "Uno de los campos está incompleto",
-        "success":          "Mensaje enviado correctamente!",
-        "waiting":          "Espere.." 
+        "title":            "Send us your messages.",
+        "name":             "name and surname",
+        "email":            "email",
+        "phone":            "telephone",
+        "message":          "message/query",
+        "button":           "Send",
+        "error":            "One of the fields is incomplete",
+        "success":          "Message sent successfully!",
+        "waiting":          "Wait.." 
     },
     "Footer":{
-        "design":           "Diseñado por",
-        "rights":           "Copyright © SerTIC 2022. All Rights Reserved",
+        "design":           "Designed by @",
+        "rights":           "Copyright © SerTIC 2022. All rights reserved.",
         "sections":{
-            "ourIdentity":      "Nosotros",
-            "services":         "Servicios",
-            "clients":          "Clientes",
-            "partners":         "Herramientas/Tecnologías",
-            "contact":          "Contacto",
-            "assistance":       "Asistencia",
-            "workWithUs":       "Trabajá con nosotros"
+            "ourIdentity":      "About us",
+            "services":         "Services",
+            "clients":          "Customers",
+            "partners":         "Tools/Technologies",
+            "contact":          "Contact",
+            "assistance":       "Attendance",
+            "workWithUs":       "Work with us"
         }
+    },
+    "Sectors":{
+        "sector1":           "SysAdmin General Manager and Information Security Specialist",
+        "sector2":           "Administration and HR",
+        "sector3":           "Infrastructure",
+        "sector4":           "Technical support",
+        "sector5":           "Development"
+    },
+    "Assistance":{
+        "title":             "Assistance"
+    },
+    "WorkWithUs":{
+        "title":             "WORK WITH US",
+        "subtitle":          "If you are interested in joining our team, please complete the following form.",
+        "linkedinText":      "Enter our linkedin profile",
+        "linkedinButton":    "Get into",
+        "formTitle":         "Leave us your data",
+        "requiredFields":    "required fields",
+        "name":              "name and surname",
+        "email":             "email",
+        "phone":             "telephone",
+        "address":           "town of residence",
+        "linkedin":          "linkedin",
+        "repository":        "repository link",
+        "salaryExpectation": "salary expectation for full time shift",
+        "technologies":      "list the technologies/tools you use",
+        "experience":        "brief summary of your work experience",
+        "curriculum":        "upload your cv",
+        "sendButton":        "Send",
+        "formSent":{
+            "text1":            "Thanks for your application!",
+            "text2":            "We will evaluate your profile shortly and you will receive feedback from our staff.",
+            "text3":            "If a vacancy becomes available, you will be considered!"
+        }
+    },
+    "WorkAreas":{
+        "title":             "WORK AREAS AT SERTIC",
+        "itSupport":         "Technical support",
+        "shopping":          "Shopping",
+        "humanResources":    "Human Resources",
+        "infrastructure":    "Infrastructure",
+        "sales":             "Sales",
+        "systems":           "Systems",
+        "development":       "Developing",
+        "managment":         "Management",
+        "marketing":         "Marketing"
     }
 }

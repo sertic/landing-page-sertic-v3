@@ -1,0 +1,46 @@
+.workAreas{
+    margin: 0px !important;
+    padding: 0px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-start;
+    height: 400px;
+    background: linear-gradient(to bottom, #c7c9c9, #eeefef) !important;
+}
+
+.workAreas h1,
+.workAreas h2,
+.workAreas h3,
+.workAreas h4,
+.workAreas p,
+.workAreas a{
+    color: #686d6d !important;
+}
+
+.workArea-item{
+    display: flex;
+    font-weight: bolder;
+    text-align: start;
+    margin: 10px 50px !important;
+}
+
+.workAreas-list{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 75vw;
+}
+
+.workArea-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+@media screen and ( max-device-width: 800px ) {
+
+    .workAreas-list{
+        width: 100vw;
+    }
+
+}
