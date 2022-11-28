@@ -6,7 +6,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
-    background-color: #c6c8c8;
     font-family: 'Roboto', sans-serif;
     list-style: none;
 }
@@ -16,7 +15,17 @@ body a, body a:hover, body a:focus{
     color: white;
 }
 
-body h1, h2, h3, h4, h5{
+.light-theme .background-theme{
+    color: #676c6c;
+    background-color: #c6c8c8;
+}
+
+.dark-theme .background-theme{
+    color: #ffffff;
+    background-color: #7d7d7d;
+}
+
+body h1, h2, h3, h4, h5, h6{
     font-family: 'Roboto Slab', serif;
 }
 
@@ -60,6 +69,9 @@ body section{
     }
     body h4{
         font-size: 30px;
+    }
+    body h6{
+        font-size: 13px;
     }
     body p{
         font-size: 18px;

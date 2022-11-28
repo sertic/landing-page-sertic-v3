@@ -6,17 +6,18 @@
     align-items: center;
     justify-content: space-start;
     height: 400px;
+}
+
+.light-theme .workAreas{
+    color: #686d6d;
     background: linear-gradient(to bottom, #c7c9c9, #eeefef) !important;
 }
 
-.workAreas h1,
-.workAreas h2,
-.workAreas h3,
-.workAreas h4,
-.workAreas p,
-.workAreas a{
-    color: #686d6d !important;
+.dark-theme .workAreas{
+    color: #000;
+    background: linear-gradient(to bottom, #747474, #d1d1d1) !important;
 }
+
 
 .workArea-item{
     display: flex;

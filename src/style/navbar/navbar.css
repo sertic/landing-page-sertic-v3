@@ -1,7 +1,16 @@
 .navbar1{
     z-index: 100;
-    background-color: #EDEEF0;
     height: 100px;
+}
+
+.navbar1-light{
+    background-color: #EDEEF0;
+    color:#686C6C;
+}
+
+.navbar1-dark{
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .navbar2{
@@ -10,25 +19,35 @@
     top: 0px;
 }
 
+.language-darklight{
+    margin: 0px 10px;
+}
+
 .language{
     font-family: 'Roboto', sans-serif;
     font-size: 35px;
-    color:#686C6C;
+    padding: 0px;
+    margin: 15px;
 }
 .nav-link:focus, .nav-link:hover {
     color:#686C6C;
 }
 
 .language p {
-    font-size: 20px;
+    font-size: 25px;
     margin: 0px;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .sun, .sun-moon-icon{
     border-radius: 100%;
     width: 70px;
     height: 70px;
+}
+
+.sun-moon-icon{
+    padding: 0px 0px;
 }
 
 .moon{
@@ -47,6 +66,37 @@
     cursor: pointer;
 }
 
+.offcanva-dark{
+    background-color: #000000;
+}
+
+.offcanva-dark a{
+    color: #ffffff;
+}
+
+.offcanva-dark a:hover{
+    color: #686C6C;
+    background-color: #fff;
+}
+
+.offcanva-dark .btn-close{
+    background-color: white;
+}
+
+.offcanva-light{
+    background-color: #ffffff;
+}
+
+.offcanva-light a{
+    color: #686C6C;
+}
+
+.offcanva-light a:hover{
+    color: #ffffff;
+    background-color: #686C6C;
+}
+
+
 .offcanvas{
     margin-left: 20px;
     height: 450px;
@@ -57,14 +107,8 @@
 
 .offcanvas a{
     font-weight:bolder;
-    color: #686C6C;
     font-size:20px;
     padding: 10px !important;
-}
-
-.offcanvas a:hover{
-    background-color: #686C6C;
-    color: #fff;
 }
 
 @media screen and ( max-device-width: 1000px ) {

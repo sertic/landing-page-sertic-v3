@@ -44,7 +44,7 @@ export const Footer = () => {
                                 <div
                                     className='d-flex justify-content-center align-items-center'
                                 >
-                                    {/* <CurrentIcons /> */}
+                                    <CurrentIcons />
                                     <LinkedinIcons />
                                 </div>
                         <a href="#home">

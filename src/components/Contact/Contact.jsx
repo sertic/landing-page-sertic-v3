@@ -16,7 +16,7 @@ export const Contact = () => {
           style={{width:'100vw'}}
       >
         <div
-          className='background-contact' 
+          className='background-theme background-contact' 
         >
           <img 
               src={backgroundServices}

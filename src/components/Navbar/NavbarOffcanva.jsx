@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Nav, Navbar, Offcanvas } from 'react-bootstrap'
 
-export const NavbarOffcanva = ({t}) => {
+export const NavbarOffcanva = ({t, theme}) => {
 
     const [show, setShow] = useState(false);
 
@@ -20,7 +20,7 @@ export const NavbarOffcanva = ({t}) => {
             <Offcanvas
                 show={show}
                 onHide={handleClose}
-                className='d-flex flex-column px-5'
+                className={`${theme ? 'offcanva-dark' : 'offcanva-light'} d-flex flex-column px-5`}
                 id={`offcanvasNavbar-expand-xl`}
                 aria-labelledby={`offcanvasNavbarLabel-expand-xl`}
                 placement='start'

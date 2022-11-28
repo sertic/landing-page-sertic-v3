@@ -1,13 +1,28 @@
 .workwithus-background{
     z-index: -10;
     position: absolute;
-    height: 150vh;
+    height: 160vh;
     width: 100vw;
 }
+
 
 .workwithus{
     min-height: 70vh;
 }
+
+.workwithus-background img{
+    height: 1100px;
+    width: 100%;
+}
+
+.light-theme .workwithus{
+    color: #fff;
+}
+
+.dark-theme .workwithus{
+    color: #000;
+}
+    
 
 .workwithus-body{
     display: flex;
@@ -15,10 +30,6 @@
     width: 100%;
 }
 
-.workwithus-background img{
-    height: 100%;
-    width: 100%;
-}
 
 .workwithus-section-1{
     width: 50vw;
@@ -33,11 +44,14 @@
     width: 40vw;
 }
 
+.light-theme .linkedin-icon-workwithus{
+    outline: 5px solid #14739F;
+}
+
 .linkedin-icon-workwithus{
     margin: 20px;
     width: 100px;
     height: 100px;
-    outline: 7px solid #14739F;
     border-radius: 50%;
 }
 
@@ -47,8 +61,15 @@
     padding: 20px;
 }
 
-.workwithus-linkedin-section{
+.dark-theme .workwithus-linkedin-section{
+    color: #fff;
+}
+
+.light-theme .workwithus-linkedin-section{
     color: #14739F;
+}
+
+.workwithus-linkedin-section{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,12 +95,17 @@
     .work-with-us-form-sent p{
         margin: 15px 15px !important;
     }
-    
 
     .workwithus-background{
-        height: 170vh;
+        height: 180vh;
+    }
+
+    .workwithus-background img{
+        height: 1000px;
     }
 }
+
+
 
 @media screen and ( max-device-width: 1000px ) {
 
@@ -103,6 +129,10 @@
 
     .workwithus-image img{
         width: 60vw;
+    }
+
+    .workwithus-background img{
+        height: 700px;
     }
 }
 

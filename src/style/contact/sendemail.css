@@ -1,7 +1,16 @@
 .sendemail{
+    z-index: 2;
     height: 90%;
     width: 44%;
-    background-color: rgb(255, 255, 255, 0.9);;
+}
+
+.light-theme .sendemail{
+    background-color: rgb(255, 255, 255, 0.9);
+}
+
+.dark-theme .sendemail{
+    color: #fff;
+    background-color: rgb(0, 0, 0, 0.9);
 }
 
 .sendemail form{
@@ -12,7 +21,19 @@
     display: none;
 }
 
-.sendemail .inputfile-text{
+.dark-theme .sendemail input::placeholder,
+.dark-theme .sendemail textarea::placeholder{
+    color: rgba(255, 255, 255, 0.733);
+}
+
+.dark-theme .sendemail .inputfile-text,
+.dark-theme .sendemail input,
+.dark-theme .sendemail textarea
+{
+    color: #fff;
+}
+
+.light-theme .sendemail .inputfile-text{
     color: rgb(99, 99, 99);
 }
 

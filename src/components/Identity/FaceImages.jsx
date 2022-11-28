@@ -35,6 +35,7 @@ export const FaceImages = () => {
               members.map(({ index,sector, list })=>(
                 <Members 
                   key={ index }
+                  index={ index }
                   sector={ sector }
                   members={ list }
                 />

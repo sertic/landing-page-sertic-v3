@@ -1,11 +1,11 @@
-import inta from '../assets/Clientes/inta.png';
-import konecta from '../assets/Clientes/konecta.png';
-import mec from '../assets/Clientes/mec.png';
-import letis from '../assets/Clientes/letis.png';
-import polo from '../assets/Clientes/polo.png';
-import swipro from '../assets/Clientes/swipro.png';
-import faro from '../assets/Clientes/faro.png';
-import zona93 from '../assets/Clientes/zona93.png';
+import inta from '../assets/Clientes/A color/inta.png';
+import konecta from '../assets/Clientes/A color/konecta.png';
+import mec from '../assets/Clientes/A color/mec.png';
+import letis from '../assets/Clientes/A color/letis.png';
+import polo from '../assets/Clientes/A color/polo.png';
+import swipro from '../assets/Clientes/A color/swipro.png';
+import faro from '../assets/Clientes/A color/faro.png';
+import zona93 from '../assets/Clientes/A color/zona93.png';
 
 
 export const clients = [

@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { WorkWithUsForm } from './WorkWithUsForm';
 import workwithusImage from '../../assets/Fondos/workwithus-image.png';
 import LinkedinIconBlue from '../Icons/LinkedinIconBlue';
+import { LinkedinIcons } from '../Icons/LinkedinIcons';
 import { useNavigate } from 'react-router';
 
 const WorkWithUs = () => {
@@ -14,8 +15,7 @@ const WorkWithUs = () => {
             className='workwithus m-5'
         >
             <h1
-                className='my-5 '
-                style={{color:'#fff'}}
+                className='my-5'
             >{ t("WorkWithUs.title") }</h1>
 
             <div
@@ -30,7 +30,6 @@ const WorkWithUs = () => {
                         {
                             status !== 'OK' &&
                             <h3
-                                style={{color:'#fff'}}
                             >{ t("WorkWithUs.subtitle") }</h3>
                         }
                         <div
@@ -48,7 +47,7 @@ const WorkWithUs = () => {
                             <div
                                 className='workwithus-linkedin-section'
                             >
-                                <LinkedinIconBlue
+                                <LinkedinIcons
                                     className='linkedin-icon-workwithus' 
                                 />
                                 <h3>

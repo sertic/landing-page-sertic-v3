@@ -11,8 +11,7 @@ export const NavbarSetLanguage = () => {
     };
 
     return (
-        <div>
-            <Nav.Link
+            <div
                 className='language d-flex align-items-center hover'
             >    
                 <p
@@ -22,8 +21,7 @@ export const NavbarSetLanguage = () => {
                 <p
                     onClick={ ()=> setLanguage('en') }
                 >EN</p>
-            </Nav.Link>
-        </div>
+            </div>
     )
 }
 

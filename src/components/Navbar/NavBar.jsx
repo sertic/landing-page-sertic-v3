@@ -1,37 +1,45 @@
 import { useTranslation } from 'react-i18next';
 import '../../style/navbar/navbar.css';
 import serticLogo from '../../assets/Logo/nuevo-logo-1.png'
+import serticLogoHover from '../../assets/Logo/nuevo-logo-1-celeste.png'
 import { Nav, Navbar } from 'react-bootstrap';
 import { NavbarOffcanva } from './NavbarOffcanva';
 import { NavbarSetLanguage } from './NavbarSetLanguage';
 import { NavbarDarkLightButton } from './NavbarDarkLightButton';
 import { CurrentIcons } from '../Icons/CurrentIcons';
 import { LinkedinIcons } from '../Icons/LinkedinIcons';
+import { useState } from 'react';
 
 
-export const NavBar = ({ setDark }) => {
+export const NavBar = ({ theme, setTheme }) => {
 
+const [logo, setLogo] = useState(serticLogo);
 const [t] = useTranslation('global');
 
 return (
   <>
     <Navbar
       id='home'
-      className='navbar1 justify-content-between p-2 align-items-center' 
+      className={`navbar1 ${theme ? 'navbar1-dark' : 'navbar1-light'} justify-content-between p-2 align-items-center`} 
     >
         <Nav.Item
             className='language-darklight d-flex align-items-center'
         >
-            <NavbarDarkLightButton />
+            <NavbarDarkLightButton 
+              theme={ theme }
+              setTheme={ setTheme }
+            />
             <NavbarSetLanguage />
         </Nav.Item>
         <Nav.Item>
             <Nav.Link 
               href='/home#home'
               className='sertic-logo'
+              onMouseOver={ () => setLogo(serticLogoHover) }
+              onMouseOut={ ()=> setLogo(serticLogo) }
             >
               <img 
-                src={ serticLogo } 
+                src={ logo } 
                 alt='sertic-logo'
               />
             </Nav.Link>
@@ -52,11 +60,11 @@ return (
       expand={false}
       style={{'backgroundColor':'#4D4D4D'}}
     >
-            <NavbarOffcanva t={t} />
+            <NavbarOffcanva t={t} theme={theme} />
             <div
               className='navbar-icons d-flex justify-content-center'
             >
-                {/* <CurrentIcons /> */}
+                <CurrentIcons />
                 <LinkedinIcons />
             </div>
     </Navbar>

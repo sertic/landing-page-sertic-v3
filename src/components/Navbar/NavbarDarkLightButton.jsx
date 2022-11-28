@@ -4,8 +4,7 @@ import sunImgDefault  from '../../assets/Icono Noche Dia/dia.png';
 import sunImgHover  from '../../assets/Icono Noche Dia/dia-hover.png';
 import moonImg from '../../assets/Icono Noche Dia/noche.png';
 
-export const NavbarDarkLightButton = () => {
-    const [theme, setTheme] = useState(true);
+export const NavbarDarkLightButton = ({ theme, setTheme }) => {
     const [sunImg, setSunImg] = useState(sunImgDefault)
 
     const onHandleSetTheme = () => {
@@ -16,13 +15,13 @@ export const NavbarDarkLightButton = () => {
     return (
         
         <Nav.Link
-            className='sun-moon-navlink hover'
-            onClick={ onHandleSetTheme }
+            className='sun-moon-icon hover'
         >
         <div
-            className='sun-moon-icon'
+            className='sun-moon-icon hover'
             onMouseOver={ () => setSunImg(sunImgHover) }
             onMouseOut={ ()=> setSunImg(sunImgDefault) }
+            onClick={ onHandleSetTheme }
         >
             <img 
                 className='moon'
@@ -34,7 +33,7 @@ export const NavbarDarkLightButton = () => {
                 src={ sunImg } 
                 alt='sun' 
                 />
-                </div>
+        </div>
         </Nav.Link>
     )
 }

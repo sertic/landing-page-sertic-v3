@@ -1,8 +1,20 @@
 .btn{
-    background-color: #14739F;
-    color: #fff;
     border-radius: 50px;
     padding: 5px 30px;
+}
+
+.light-theme .btn{
+    background-color: #14739F;
+    color: #fff;
+}
+
+.dark-theme .btn{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn:hover{
+    background-color: #0095ff;
 }
 
 .btn-services{

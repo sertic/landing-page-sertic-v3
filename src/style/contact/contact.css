@@ -1,5 +1,5 @@
 .background-contact{
-    z-index: -10;
+    z-index: -100;
     height: 150vh;
     transform: translateY(-50px);
     position: absolute; 
@@ -14,9 +14,15 @@
 .contact{
     height: 100vh;
     color: #676c6c;
-    margin-top: 150px;
+    margin-top: 250px;
 }
 
+@media screen and ( max-device-width: 1500px ) {
+    .background-contact{
+        height: 1100px;
+        width: 100vw;
+    }
+}
 
 @media screen and ( max-device-width: 1000px ) {
 
@@ -57,13 +63,9 @@
     }
 
     .background-contact{
-        height: 1100px;
+        height: 1200px;
         width: 100vw;
         transform: translateY(-100px);
-    }
-
-    .background-contact img{
-        /* object-fit:contain ; */
     }
 
 }

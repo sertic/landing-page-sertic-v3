@@ -11,8 +11,7 @@ const WorkAreas = () => {
             className="workAreas"
         >
             <h1
-                className='my-5 '
-                style={{color:'#fff'}}
+                className='my-5'
             >{ t("WorkAreas.title") }</h1>
             <div
                 className='workAreas-list'

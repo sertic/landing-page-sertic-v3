@@ -7,7 +7,7 @@ import { Partners } from './Partners/Partners';
 export const ClientsPartners = () =>{
     return(
         <section
-            className='mb-5 d-flex flex-column justify-content-around'
+            className='background-theme mb-5 d-flex flex-column justify-content-around'
         >
             <Clients />
             {/* <Partners /> */}

@@ -6,12 +6,12 @@ import WorkAreas from '../components/WorkWithUs/WorkAreas';
 import WorkWithUs from '../components/WorkWithUs/WorkWithUs';
 import WorkWithUsBackground from '../components/Backgrounds/WorkWithUsBackground';
 
-export const WorkWithUsPage = () =>{
+export const WorkWithUsPage = ({theme}) =>{
     const [t] = useTranslation("global");
     return(
         <>
             <WorkWithUsBackground />
-            <WorkWithUs />
+            <WorkWithUs theme={ theme } />
             <WorkAreas />
         </>
     )

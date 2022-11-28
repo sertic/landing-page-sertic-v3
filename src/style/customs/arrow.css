@@ -1,9 +1,15 @@
 .arrow{
         cursor: pointer;
-        color: #0074a2 !important;
         width: 50px !important;
         height: 50px !important;
-        /* font-size: 100px !important; */
+}
+
+.light-theme .arrow{
+    color: #0074a2 !important;
+}
+
+.dark-theme .arrow{
+    color: #fff;
 }
 
 .slick-next{
@@ -23,14 +29,14 @@
     position:absolute;
     width: 200px !important;
     height: 10vh !important;
-    top: 60vh;
+    top: 70vh;
     right: 0px !important;
 }
 
 @media screen and ( max-device-width: 1500px ) {
 
     .arrow-faces{
-        top: 500px;
+        top: 650px;
     }
 
 }

@@ -11,7 +11,8 @@ export const Clients = () => {
                 <GenericCustomSlider
                     title={ t('Clients.title') }
                     id='clients'
-                    children={
+                >
+                    {
                         clients.map( ({ link, img, name }) =>(
                             <ReturnClient
                                 key  = { link }
@@ -21,7 +22,7 @@ export const Clients = () => {
                             />
                         ))    
                     }
-                />
+                </GenericCustomSlider>
         </div>
     )
 }

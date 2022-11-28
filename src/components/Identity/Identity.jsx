@@ -8,13 +8,13 @@ export const Identity = () => {
   return (
     <>
         <img 
-          className='identity-wallpaper'
+          className='background-theme identity-wallpaper'
           src={identityWallpapaer} 
           alt='identity-wallpaper' 
         />
         <div
           id='identity'
-          className='identity d-flex justify-content-center'
+          className='background-theme identity d-flex justify-content-center'
         >
             <OurIdentity />
             <FaceImages />

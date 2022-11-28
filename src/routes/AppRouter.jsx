@@ -8,24 +8,29 @@ import { ServicesPage } from '../pages/ServicesPage';
 import { WorkWithUsPage } from '../pages/WorkWithUsPage';
 
 export const AppRouter = () => {
-    const [dark, setDark] = useState( localStorage.getItem('theme'));
+    const [theme, setTheme] = useState( localStorage.getItem('theme') || false);
 
     return (
-        <BrowserRouter>
-            <NavBar
-                setDark={ setDark }
-            />
+        <div
+            className={theme ? 'dark-theme' : 'light-theme'}
+        >
+            <BrowserRouter>
+                <NavBar
+                    theme={ theme }
+                    setTheme={ setTheme }
+                />
 
-            <Routes>
-                <Route exact path='/home'           element={<HomePage />} />
-                <Route exact path='/assistance'     element={<AssistancePage />} />
-                <Route exact path='/services'       element={<ServicesPage />} />
-                <Route exact path='/workwithus'     element={<WorkWithUsPage />} />
+                <Routes>
+                    <Route exact path='/home'           element={<HomePage />} />
+                    <Route exact path='/assistance'     element={<AssistancePage />} />
+                    <Route exact path='/services'       element={<ServicesPage />} />
+                    <Route exact path='/workwithus'     element={<WorkWithUsPage theme={ theme } />} />
 
-                <Route path='*' element={<Navigate to='/home'/>} />
-            </Routes>
+                    <Route path='*' element={<Navigate to='/home'/>} />
+                </Routes>
 
-            <Footer />
-        </BrowserRouter>
+                <Footer />
+            </BrowserRouter>
+        </div>
     )
 }

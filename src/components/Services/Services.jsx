@@ -13,7 +13,7 @@ export const Services = ({ dark }) => {
     return (
         <>
             <img 
-                className='w-100 background-services' 
+                className='background-theme w-100 background-services' 
                 src={backgroundServices} 
                 alt="background" 
             />
